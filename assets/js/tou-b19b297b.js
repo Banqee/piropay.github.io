@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){return"#privacy_policy"===window.location.hash?$("body").animate({scrollTop:$("#privacy").offset().top-$("nav").height()+5}):void 0})}).call(this);

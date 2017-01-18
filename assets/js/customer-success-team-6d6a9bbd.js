@@ -1,0 +1,1 @@
+(function(){$("#cs-testimonials-carousel").on("init",function(e,t){carousel_helper(this)}),$("#cs-testimonials-carousel").slick({dots:!0,autoplay:!1,lazyLoad:"progressive",autoplaySpeed:5e3,fade:!1,arrows:!1,responsive:[{breakpoint:992,settings:{adaptiveHeight:!0}}]})}).call(this);

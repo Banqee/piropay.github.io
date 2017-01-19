@@ -733,7 +733,7 @@ html[class*=" isometric"] nav.navbar div.navbar-header a.navbar-brand span.logo-
 
 @media (min-width: 992px){
 .desktop-section-height {
-    height: 45vw !important;
+    height: 25vw !important;
     padding-top: 10px;
 	}}
 

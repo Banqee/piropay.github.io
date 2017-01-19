@@ -1607,3 +1607,97 @@ fieldset[disabled] .btn-success.active {
 }
 
 
+@media  (min-width: 1200px) {
+.cta-segment--inline h1 {
+    display: inline-block;
+    margin: 0 3rem 0 0;
+	}}
+@media (min-width: 992px){
+.cta-segment--inline h1 {
+    display: block;
+    margin: 0 3rem 1.5rem 0;
+    text-align: center;
+	}}
+.cta-segment h1 b {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.cta-segment--inline .btn {
+    display: inline-block;
+    min-width: 24rem;
+    margin: 1.5rem auto 0;
+}
+@media (min-width: 768px)
+.cta-segment .btn--bordered {
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
+}
+.cta-segment .btn--bordered {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+}
+@media (min-width: 768px)
+.cta-segment .btn, .cta-segment .navigation-page__button, .cta-segment .contact .hbspt-form .hs-button, .contact .hbspt-form .cta-segment .hs-button {
+    padding: 1.6rem 5rem 1.4rem;
+    font-size: 2rem;
+    line-height: 1em;
+}
+.cta-segment__content>* {
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+}
+@media (min-width: 992px)
+.btn--bordered {
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
+}
+.btn--bordered {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+    background: transparent;
+    transition: box-shadow .25s;
+}
+
+.btn, .navigation-page__button, .contact .hbspt-form .hs-button {
+    display: inline-block;
+    user-select: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    transition: background-color .25s;
+}
+
+.btn-piropay {
+    display: inline-block;
+    user-select: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    background: #9D5DE0;
+    transition: background-color .25s;
+}
+

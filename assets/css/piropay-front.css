@@ -1496,6 +1496,28 @@ border-radius:50%;
     margin-right: 10px;
 }
 
+nav.navbar ul.navbar-nav li a:hover.login
+nav.navbar ul.navbar-nav li a:focus.login,
+nav.navbar ul.navbar-nav li a:active.login{
+    border: 2px solid #9D5DE0;
+	color: #9D5DE0;
+}
+
+
+@media (min-width: 768px) {
+nav.navbar ul.navbar-nav li a:hover.login {
+    border: 2px solid #9D5DE0;
+	color: #9D5DE0;
+	}}
+
+.navbar-custom .navbar-nav li.active a:hover.login,
+.navbar-custom .navbar-nav li.active a:focus.login,
+.navbar-custom .navbar-nav li.active a:active.login {
+  color: #9D5DE0;
+  background: transparent;
+	    border: 2px solid #9D5DE0;
+}
+
 .navbar-custom .navbar-toggle {
   color: white;
   text-transform: uppercase;

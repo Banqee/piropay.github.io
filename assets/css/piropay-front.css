@@ -1,7 +1,7 @@
 @media (min-width: 992px)
-{.desktop-section-height{height:45vw !important}}
+{.desktop-section-height{height:35vw !important}}
 @media (max-width: 991px)
-{.mobile-section-height{height:72vw !important}}
+{.mobile-section-height{height:62vw !important}}
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

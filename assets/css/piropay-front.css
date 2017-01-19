@@ -753,7 +753,7 @@ html.isometric-altimg-menu section.iso-main.altimage {
 
 section.locked-original-text .locked-cta input.email, section.locked-menu .locked-cta input.email, section.unlocked .locked-cta input.email, html.locked-original-text-menu section.locked-original-text .locked-cta input.email, html.locked-original-text-menu section.locked-menu .locked-cta input.email, html.locked-original-text-menu section.unlocked .locked-cta input.email, html.locked-menu section.locked-original-text .locked-cta input.email, html.locked-menu section.locked-menu .locked-cta input.email, html.locked-menu section.unlocked .locked-cta input.email, html.unlocked section.locked-original-text .locked-cta input.email, section.locked-menu .locked-cta input.email, section.unlocked .locked-cta input.email {
     background: #fff;
-    border: 1px solid #9D5DE0;
+    border: 1px solid #9D5DE0!important;
     border-radius: 50px;
     margin-right: 10px;
     padding: 10px 30px;

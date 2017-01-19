@@ -1850,3 +1850,44 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
 	    margin: 12px;
     font-size: 2.3em;
 	}
+	
+	
+	@media (min-width: 768px){
+.hero__buttons {
+    margin-top: 2rem;
+		}}
+
+.hero__buttons {
+    margin-top: 1.6rem;
+}
+	
+	@media (min-width: 768px){
+.iso-high-board>.btn {
+    margin-top: 3rem;
+    padding: 1.6rem 3rem 1.4rem;
+		}}
+
+.iso-high-board>.btn {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    min-width: 25rem;
+}
+.btn-group .btn, .btn-group .btn-group .contactForm, .contactForm .btn-group .btn {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+@media (min-width: 992px)
+.btn--bordered {
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.5);
+}
+.btn--bordered {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+    background: transparent;
+    transition: box-shadow .25s;
+}
+@media (min-width: 1200px)
+.btn--lg {
+    padding: 1.6rem 5rem 1.4rem;
+    font-size: 2rem;
+    line-height: 1em;
+}

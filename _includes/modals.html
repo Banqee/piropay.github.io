@@ -1,5 +1,24 @@
+!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+        <br><br>
+        <h1>Modal with blur effect</h1>
+        <h2>Put here whatever you want here</h2>
+        <h4>For instance, a login form or an article content</h4>
+        <h4><kbd>esc</kbd> or click anyway to close</h4>
+        <hr>
+        <div class="alert alert-danger"><h4>You can add any html and css ;)</h4></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 {% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="{{ post.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" style="display:noner;" id="{{ post.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">

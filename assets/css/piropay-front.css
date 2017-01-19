@@ -144,10 +144,13 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-	  background-color: #FFFFFF;
-    background-image: url(https://res.cloudinary.com/piropay/image/upload/v1484769290/swipe-transaction-list_fc48iu.png) no-repeat center center;
-;
-  color: #444444;
+   background-color: #FFFFFF;
+    background-image: url("https://res.cloudinary.com/piropay/image/upload/v1484769290/swipe-transaction-list_fc48iu.png");
+   background-repeat: no-repeat;
+	
+    background-position: center center;
+	    position: relative;
+   color: #444444;
 }
 header .container {
   padding-top:  200px;

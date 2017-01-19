@@ -1317,15 +1317,22 @@ section#security .bullets h3 .fa {
 
 
 /*!
- * Piropay - Freelancer v1.1.1 (http://piropay.com)
+ * Piropay - Richard St Joseph v1.1.1 (http://piropay.com)
  * Copyright 2017 Piropay Ltd.
  */
+
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
+
+html, body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
 p {
-  font-size: 20px;
+  font-size: 21px;
 }
 p.small {
   font-size: 16px;
@@ -1344,7 +1351,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1399,7 +1406,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -1422,9 +1429,9 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #FFFFFF;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  text-transform: none;
+  font-weight: 300;
   border: none;
 }
 .navbar-custom a:focus {
@@ -1443,25 +1450,35 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #9D5DE0;
+	    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 14px;
+    padding: 6px 0;
+    color: black;
+    text-align: center;
+    -webkit-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #9D5DE0;
+	border-radius: 35px;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: grey;
+  color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: grey;
-  background: #18BC9C;
+  color: white;
+  background: #9D5DE0;
+	border-radius: 35px;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #9D5DE0;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -1471,9 +1488,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #9D5DE0;
   color: white;
-  border-color: #18BC9C;
+  border-color: #9D5DE0;
 }
 @media (min-width: 768px) {
   .navbar-custom {

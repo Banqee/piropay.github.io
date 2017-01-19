@@ -1449,6 +1449,14 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    text-transform: none!important;
+}
+
 .navbar-custom .navbar-nav li a {
 	    display: inline-block;
     vertical-align: middle;

@@ -1347,14 +1347,22 @@ section.features-video section.features-ab-left .right img {
 	
 
 	section.original{display:none}
-html.original section.original{display:block}
+ .original section.original{display:block}
 	
 	section.isometric{display:none}
-	html[class*=" isometric"] section.isometric{display:block}
+section.isometric{display:block}
 	html.unlocked,html.unlocked body{height:initial;position:static;overflow:initial;-webkit-overflow-scrolling:initial}
 	html.unlocked section.unlocked .see-more-wrapper .see-more{display:none}
 	html.unlocked section.unlocked .see-more-wrapper .see-more-arrow{display:block;cursor:pointer}
 
+.see-more-wrapper .see-more {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: 400;
+    color: #58a8ff;
+    background: rgba(255,255,255,0.7);
+	text-align: center;
+}
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;

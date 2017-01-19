@@ -1803,3 +1803,21 @@ fieldset[disabled] .btn-success.active {
 .iso-twitter .carousel .tweets:focus{outline:none}
 .iso-twitter .carousel .tweets .twitter-tweet{margin:25px auto !important}
 .iso-twitter .carousel .slick-dots{margin-bottom:4vh;margin-top:2vh}
+
+section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta,section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta, xt-menu section.locked-original-text .locked-cta  {
+    margin: 20px auto 0;
+    text-align: center;
+    width: 95%;
+}
+
+
+@media (max-width: 1599px) and (min-width: 1200px){
+html.locked-original-text section.locked-original-text h2, html.locked-original-text section.locked-menu h2, html.locked-original-text section.unlocked h2
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+ 

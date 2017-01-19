@@ -417,6 +417,57 @@ section.success {
 }
 
 
+
+section.home-iso-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px){
+section.home-iso-support .heading {
+    padding: 5vw 0;
+}
+section.home-iso-support .heading h1 {
+    font-size: 2.5vw;
+}
+
+section.home-iso-support .text {
+    padding: 10vw 5vw 0 2vw;
+	}
+	
+section.home-iso-support .text h2 {
+    padding-bottom: 1vw;
+}
+
+section.home-iso-support .text p:last-child {
+    padding-top: 1vw;
+}
+
+	section.home-iso-support .left {
+    text-align: center;
+}
+	section.home-iso-support .left img {
+    width: 100%;
+    height: auto;
+}
+	
+	
+	
+	
+}
+
+section.home-iso-support .text {
+    padding: 10vw 5vw 0 2vw;
+}
+
+
+section.home-iso-numbers{background-color:#9f58e4;height:220px}
+section.home-iso-numbers .numbers{padding:40px 0;color:white}
+section.home-iso-numbers .numbers svg{width:40px;height:40px}
+section.home-iso-numbers .numbers .number{font-weight:500;font-size:40px}
+section.home-iso-numbers .numbers p{font-size:24px;font-weight:200}
+
+
 html[class*=" isometric"] 
 	section.iso-main-full .heading .signup-form-half form input::-moz-placeholder{padding-left:20px}
 html[class*=" isometric"] section.iso-main-full .heading .signup-form-half form input:-ms-input-placeholder{padding-left:20px}}

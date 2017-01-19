@@ -29,9 +29,6 @@
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="msapplication-TileImage" content="assets/img/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -51,7 +48,12 @@
 <meta name="twitter:description" content="The best tool is the one that your company actually needs, and piropay comes with built in addiction. Get addicted to turning things green."> 
 <meta name="twitter:image" content="https://s3.amazonaws.com/general-assets/twitter_card.png"> 
 <meta property="twitter:account_id" content=""> 
-<meta name="google-site-verification" content=""/> 
+<meta name="google-site-verification" content=""/>	
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml"/>
 
 <script src="assets/js/templates-ab-test-b134faa7.js"></script>
 
@@ -64,29 +66,24 @@ if(window.sessionStorage) {
 }
 </script> 
 
-<script src="assets/js/ab-tests/homepage-showdown-04f73532.js"></script> 
-
+<script src="assets/js/ab-tests/homepage-showdown-04f73532.js"></script>
+	
+	    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' property='stylesheet' rel='stylesheet'> 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Piropay Theme CSS -->
     <link rel="stylesheet" href="assets/css/piropay-front.css">
+	
+<!--[if lt IE 9]>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<![endif]--> 
+<!--[if (IE 9) | (gte IE 9) | (!IE)]>
+<!--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<!--<![endif]--> 
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1f722466.js"><\/script>')</script> 
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
-
-<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml"/>
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
- 
- <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' property='stylesheet' rel='stylesheet'> 
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>

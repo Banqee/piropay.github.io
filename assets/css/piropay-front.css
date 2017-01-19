@@ -1817,7 +1817,32 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     font-size: 20px;
     margin-top: 10px;
 }
+.see-more-wrapper, section.locked-menu .see-more-wrapper, section.unlocked .see-more-wrapper {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 35px;
+}
 
 
-
+.box-btn button:hover {
+    background-color: #bc7bff;
+    border-color: #9D5DE0;
+    color: white;
+}
+.box-btn button {
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    background-color: white;
+    border: 1px solid #9D5DE0;
+    border-radius: 20px;
+    padding: 0.5vw 3vw;
+    color: #9D5DE0;
+	text-shadow: 0px 1px 1px #111;
+    outline: 0;
+    font-weight: 200;
+}
  

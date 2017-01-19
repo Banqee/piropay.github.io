@@ -1899,3 +1899,9 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     font-size: 2rem;
     line-height: 1em;
 }
+	@media (min-width: 992px){
+.desktop-section-height {
+    padding-top: 10px;
+    height: 25vw;
+	    width: 85%;
+	}}

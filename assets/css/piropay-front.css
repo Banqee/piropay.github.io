@@ -1846,3 +1846,7 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     font-weight: 200;
 }
  
+.text h2 {
+	    margin: 12px;
+    font-size: 2.3em;
+	}

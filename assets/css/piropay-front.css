@@ -1,7 +1,6 @@
 /*!
  * Piropay - Freelancer v1.1.1 (http://piropay.com)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Copyright 2017 Piropay Ltd.
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -126,7 +125,7 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #FD5DE0;
+  color: #9D5DE0;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;

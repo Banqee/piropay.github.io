@@ -1594,7 +1594,8 @@ fieldset[disabled] .btn-success.active {
 .btn.active {
   outline: none;
 }
-}.scroll-top{
+
+.scroll-top{
 	position:fixed;
 	right:2%;
 	bottom:2%;
@@ -1849,7 +1850,6 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     border-radius: 20px;
     padding: 0.5vw 3vw;
     color: #9D5DE0;
-	text-shadow: 0px 1px 1px #111;
     outline: 0;
     font-weight: 200;
 }

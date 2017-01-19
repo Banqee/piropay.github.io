@@ -148,7 +148,7 @@ header {
   color: #444444;
 }
 header .container {
-  padding-top: 40px;
+  padding-top:  200px;
   padding-bottom: 50px;
 }
 header img {
@@ -169,7 +169,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 40px;
+    padding-top: 200px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -1016,6 +1016,291 @@ html[class*=" isometric"] section.iso-features .fboxes .fbox .fbox-icon .fa {
     margin: 0 auto;
 }
 
+@media (max-width: 991px){section.home-vision-inverted .right .text p{font-size:4vw}}
+.home-videos .left{background-color:#F4F4F4}.home-videos .left .main-vid{position:relative;z-index:1}
+.home-videos .left .main-vid img{z-index:2;width:100%}
+.home-videos .left .main-vid video{width:100%;position:absolute;top:0;bottom:0;right:0;left:0}
+.home-videos .left .main-vid .overlay{position:absolute;z-index:3;top:0;bottom:0;right:0;left:0;color:#fff;background-color:rgba(0,0,0,0.5)}.home-videos .left .main-vid .overlay .description{max-width:80%;-webkit-transition:color 0.2s ease-in-out;transition:color 0.2s ease-in-out}.home-videos .left .main-vid .overlay .description:hover{color:#FCB714}.home-videos .left .main-vid .overlay .description .who{font-size:26px}.home-videos .left .main-vid .overlay .description .how{font-size:20px}.home-videos .left .main-vid .overlay .description .play-contour{margin:0 auto;font-size:50px;display:inline-block;padding:20px;cursor:pointer}.home-videos .right{padding:30px 40px !important}.home-videos .right h2{font-size:3.6vw}.home-videos .right h3{font-size:2vw}@media (max-width: 991px){.home-testimonials .right{background-color:#f1f1f1}}.home-testimonials .right .carousel{width:90%;max-width:700px;margin:0 auto 50px auto}.home-testimonials .right .carousel .item{margin:20px 0}.home-testimonials .right .carousel .item:focus{outline:0}.home-testimonials .right .carousel .item .image{text-align:center;margin:0 auto 40px auto;width:70%}
+
+@media (min-width: 992px){
+section.home-vision {
+    border-bottom: 0px solid #eee!important;
+	}}
+@media (max-width: 991px){
+.home-testimonials .right .carousel .item .image{margin-bottom:20px;width:100%}}
+.home-testimonials .right .carousel .item .image img{width:100%}
+.home-testimonials .right .carousel .item .title{margin-bottom:15px;font-size:21px}
+.video-modal{position:fixed;width:100%;height:100%;display:none;background:rgba(0,0,0,0.8);top:0;left:0;z-index:10000}
+.video-modal a.close{display:inline-block;font-size:45px;position:absolute;color:#fff;top:20px;right:20px;z-index:2;opacity:0.3;-webkit-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in}.video-modal a.close:hover{text-decoration:none;opacity:0.6}.video-modal a.close:focus{text-decoration:none}.video-modal iframe{position:relative;z-index:1;width:100%;height:100%;border:none}section.locked-original-text,section.locked-horizontal,section.locked-menu,section.unlocked{display:none}
+html.locked-original-text,html.locked-original-text body,html.locked-original-text-menu,html.locked-original-text-menu body,html.locked-horizontal,html.locked-horizontal body,html.locked-menu,html.locked-menu body,html.unlocked,html.unlocked body{height:100%;position:relative;overflow:hidden;-webkit-overflow-scrolling:touch}html.locked-original-text.scrolled,html.locked-original-text.scrolled body,html.locked-original-text-menu.scrolled,html.locked-original-text-menu.scrolled body,html.locked-horizontal.scrolled,html.locked-horizontal.scrolled body,html.locked-menu.scrolled,html.locked-menu.scrolled body,html.unlocked.scrolled,html.unlocked.scrolled body{height:initial;position:static;overflow:auto;-webkit-overflow-scrolling:initial}html.locked-original-text.scrolled .see-more-wrapper,html.locked-original-text-menu.scrolled .see-more-wrapper,html.locked-horizontal.scrolled .see-more-wrapper,html.locked-menu.scrolled .see-more-wrapper,html.unlocked.scrolled .see-more-wrapper{display:none}html.locked-original-text section.original,html.locked-original-text-menu section.original,html.locked-horizontal section.original,html.locked-menu section.original,html.unlocked section.original{display:block}html.locked-original-text section.original .home-video-banner,html.locked-original-text-menu section.original .home-video-banner,html.locked-horizontal section.original .home-video-banner,html.locked-menu section.original .home-video-banner,html.unlocked section.original .home-video-banner{display:none}
+html.locked-original-text body,html.locked-original-text-menu body,html.locked-horizontal body,html.locked-menu body,html.unlocked body{overflow:hidden}html.locked-original-text div.signup-form-mobile-footer.visible,html.locked-original-text-menu div.signup-form-mobile-footer.visible,html.locked-horizontal div.signup-form-mobile-footer.visible,html.locked-menu div.signup-form-mobile-footer.visible,html.unlocked div.signup-form-mobile-footer.visible{display:none !important}
+html.locked-original-text nav.navbar,html.locked-original-text-menu nav.navbar,html.locked-horizontal nav.navbar,html.locked-menu nav.navbar,html.unlocked nav.navbar{background:white;border:none}@media (min-width: 768px){html.locked-original-text nav.navbar ul.nav.navbar-nav li,html.locked-original-text-menu nav.navbar ul.nav.navbar-nav li,html.locked-horizontal nav.navbar ul.nav.navbar-nav li,html.locked-menu nav.navbar ul.nav.navbar-nav li,html.unlocked nav.navbar ul.nav.navbar-nav li{opacity:0}html.locked-original-text nav.navbar ul.nav.navbar-nav li:last-child,html.locked-original-text-menu nav.navbar ul.nav.navbar-nav li:last-child,html.locked-horizontal nav.navbar ul.nav.navbar-nav li:last-child,html.locked-menu nav.navbar ul.nav.navbar-nav li:last-child,html.unlocked nav.navbar ul.nav.navbar-nav li:last-child{opacity:1}}html.locked-original-text .navbar-padding,html.locked-original-text-menu .navbar-padding,html.locked-horizontal .navbar-padding,html.locked-menu .navbar-padding,html.unlocked .navbar-padding{display:none}html.locked-original-text section.home-video-banner,html.locked-original-text-menu section.home-video-banner,html.locked-horizontal section.home-video-banner,html.locked-menu section.home-video-banner,html.unlocked section.home-video-banner{display:none}@media (max-width: 767px){html.locked-original-text nav.navbar ul.nav.navbar-nav li{display:none}html.locked-original-text nav.navbar ul.nav.navbar-nav li:last-child{display:block}}html.locked-original-text-menu.scrolled nav.navbar ul.nav.navbar-nav li{opacity:1;-webkit-transition:opacity 1s ease-in-out;transition:opacity 1s ease-in-out}
+html.locked-original-text section.locked-original-text,html.locked-original-text section.locked-menu,html.locked-original-text section.unlocked,html.locked-original-text-menu section.locked-original-text,html.locked-original-text-menu section.locked-menu,html.locked-original-text-menu section.unlocked,html.locked-menu section.locked-original-text,html.locked-menu section.locked-menu,html.locked-menu section.unlocked,html.unlocked section.locked-original-text,html.unlocked section.locked-menu,html.unlocked section.unlocked{display:block;position:relative;height:100vh}html.locked-original-text section.locked-original-text .locked-cta,html.locked-original-text section.locked-menu .locked-cta,html.locked-original-text section.unlocked .locked-cta,html.locked-original-text-menu section.locked-original-text .locked-cta,html.locked-original-text-menu section.locked-menu .locked-cta,html.locked-original-text-menu section.unlocked .locked-cta,html.locked-menu section.locked-original-text .locked-cta,html.locked-menu section.locked-menu .locked-cta,html.locked-menu section.unlocked .locked-cta,html.unlocked section.locked-original-text .locked-cta,html.unlocked section.locked-menu .locked-cta,html.unlocked section.unlocked .locked-cta{margin:120px auto 0;text-align:center;width:94%}@media (min-width: 768px) and (max-width: 991px){html.locked-original-text section.locked-original-text .locked-cta,html.locked-original-text section.locked-menu .locked-cta,html.locked-original-text section.unlocked .locked-cta,html.locked-original-text-menu section.locked-original-text .locked-cta,html.locked-original-text-menu section.locked-menu .locked-cta,html.locked-original-text-menu section.unlocked .locked-cta,html.locked-menu section.locked-original-text .locked-cta,html.locked-menu section.locked-menu .locked-cta,html.locked-menu section.unlocked .locked-cta,html.unlocked section.locked-original-text .locked-cta,html.unlocked section.locked-menu .locked-cta,html.unlocked section.unlocked .locked-cta{margin:160px auto 0}}@media (max-width: 767px){html.locked-original-text section.locked-original-text .locked-cta,html.locked-original-text section.locked-menu .locked-cta,html.locked-original-text section.unlocked .locked-cta,html.locked-original-text-menu section.locked-original-text .locked-cta,html.locked-original-text-menu section.locked-menu .locked-cta,html.locked-original-text-menu section.unlocked .locked-cta,html.locked-menu section.locked-original-text .locked-cta,html.locked-menu section.locked-menu .locked-cta,html.locked-menu section.unlocked .locked-cta,html.unlocked section.locked-original-text .locked-cta,html.unlocked section.locked-menu .locked-cta,html.unlocked section.unlocked .locked-cta{margin-top:90px}}html.locked-original-text section.locked-original-text .locked-cta .board_example,html.locked-original-text section.locked-menu .locked-cta .board_example,html.locked-original-text section.unlocked .locked-cta .board_example,html.locked-original-text-menu section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example,html.unlocked section.unlocked .locked-cta .board_example{opacity:0;-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;margin-top:32px;max-width:100%}@media (min-width: 1200px) and (max-width: 1599px){html.locked-original-text section.locked-original-text .locked-cta .board_example,html.locked-original-text section.locked-menu .locked-cta .board_example,html.locked-original-text section.unlocked .locked-cta .board_example,html.locked-original-text-menu section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example,html.unlocked section.unlocked .locked-cta .board_example{margin-top:22px}}
+
+@media (min-width: 768px) and (max-width: 991px){
+	html.locked-original-text section.locked-original-text .locked-cta .board_example,html.locked-original-text section.locked-menu .locked-cta .board_example,html.locked-original-text section.unlocked .locked-cta .board_example,html.locked-original-text-menu section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example,html.unlocked section.unlocked .locked-cta .board_example{padding-top:10vh}}@media (max-width: 767px){html.locked-original-text section.locked-original-text .locked-cta .board_example,html.locked-original-text section.locked-menu .locked-cta .board_example,html.locked-original-text section.unlocked .locked-cta .board_example,html.locked-original-text-menu section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example,html.unlocked section.unlocked .locked-cta .board_example{margin-top:100px}}html.locked-original-text section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text section.locked-menu .locked-cta .signup-form-half,html.locked-original-text section.unlocked .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-menu .locked-cta .signup-form-half,html.locked-original-text-menu section.unlocked .locked-cta .signup-form-half,html.locked-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-menu section.locked-menu .locked-cta .signup-form-half,html.locked-menu section.unlocked .locked-cta .signup-form-half,html.unlocked section.locked-original-text .locked-cta .signup-form-half,html.unlocked section.locked-menu .locked-cta .signup-form-half,html.unlocked section.unlocked .locked-cta .signup-form-half{margin-top:42px}@media (min-width: 1200px) and (max-width: 1599px){html.locked-original-text section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text section.locked-menu .locked-cta .signup-form-half,html.locked-original-text section.unlocked .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-menu .locked-cta .signup-form-half,html.locked-original-text-menu section.unlocked .locked-cta .signup-form-half,html.locked-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-menu section.locked-menu .locked-cta .signup-form-half,html.locked-menu section.unlocked .locked-cta .signup-form-half,html.unlocked section.locked-original-text .locked-cta .signup-form-half,html.unlocked section.locked-menu .locked-cta .signup-form-half,html.unlocked section.unlocked .locked-cta .signup-form-half{margin-top:32px}}@media (max-width: 767px){html.locked-original-text section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text section.locked-menu .locked-cta .signup-form-half,html.locked-original-text section.unlocked .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-original-text-menu section.locked-menu .locked-cta .signup-form-half,html.locked-original-text-menu section.unlocked .locked-cta .signup-form-half,html.locked-menu section.locked-original-text .locked-cta .signup-form-half,html.locked-menu section.locked-menu .locked-cta .signup-form-half,html.locked-menu section.unlocked .locked-cta .signup-form-half,html.unlocked section.locked-original-text .locked-cta .signup-form-half,html.unlocked section.locked-menu .locked-cta .signup-form-half,html.unlocked section.unlocked .locked-cta .signup-form-half{margin-top:0}}html.locked-original-text section.locked-original-text .locked-cta input.email,html.locked-original-text section.locked-menu .locked-cta input.email,html.locked-original-text section.unlocked .locked-cta input.email,html.locked-original-text-menu section.locked-original-text .locked-cta input.email,html.locked-original-text-menu section.locked-menu .locked-cta input.email,html.locked-original-text-menu section.unlocked .locked-cta input.email,html.locked-menu section.locked-original-text .locked-cta input.email,html.locked-menu section.locked-menu .locked-cta input.email,html.locked-menu section.unlocked .locked-cta input.email,html.unlocked section.locked-original-text .locked-cta input.email,html.unlocked section.locked-menu .locked-cta input.email,html.unlocked section.unlocked .locked-cta input.email{background:#fff;border:1px solid #58a8ff;border-radius:50px;margin-right:10px;padding:10px 30px;width:280px;font-size:14px}
+@media (max-width: 767px){
+	html.locked-original-text section.locked-original-text .locked-cta input.email,html.locked-original-text section.locked-menu .locked-cta input.email,html.locked-original-text section.unlocked .locked-cta input.email,html.locked-original-text-menu section.locked-original-text .locked-cta input.email,html.locked-original-text-menu section.locked-menu .locked-cta input.email,html.locked-original-text-menu section.unlocked .locked-cta input.email,html.locked-menu section.locked-original-text .locked-cta input.email,html.locked-menu section.locked-menu .locked-cta input.email,html.locked-menu section.unlocked .locked-cta input.email,html.unlocked section.locked-original-text .locked-cta input.email,html.unlocked section.locked-menu .locked-cta input.email,html.unlocked section.unlocked .locked-cta input.email{margin-right:auto}}html.locked-original-text section.locked-original-text .locked-cta ::-webkit-input-placeholder,html.locked-original-text section.locked-menu .locked-cta ::-webkit-input-placeholder,html.locked-original-text section.unlocked .locked-cta ::-webkit-input-placeholder,html.locked-original-text-menu section.locked-original-text .locked-cta ::-webkit-input-placeholder,html.locked-original-text-menu section.locked-menu .locked-cta ::-webkit-input-placeholder,html.locked-original-text-menu section.unlocked .locked-cta ::-webkit-input-placeholder,html.locked-menu section.locked-original-text .locked-cta ::-webkit-input-placeholder,html.locked-menu section.locked-menu .locked-cta ::-webkit-input-placeholder,html.locked-menu section.unlocked .locked-cta ::-webkit-input-placeholder,html.unlocked section.locked-original-text .locked-cta ::-webkit-input-placeholder,html.unlocked section.locked-menu .locked-cta ::-webkit-input-placeholder,html.unlocked section.unlocked .locked-cta ::-webkit-input-placeholder{color:#58a8ff}html.locked-original-text section.locked-original-text .locked-cta :-moz-placeholder,html.locked-original-text section.locked-menu .locked-cta :-moz-placeholder,html.locked-original-text section.unlocked .locked-cta :-moz-placeholder,html.locked-original-text-menu section.locked-original-text .locked-cta :-moz-placeholder,html.locked-original-text-menu section.locked-menu .locked-cta :-moz-placeholder,html.locked-original-text-menu section.unlocked .locked-cta :-moz-placeholder,html.locked-menu section.locked-original-text .locked-cta :-moz-placeholder,html.locked-menu section.locked-menu .locked-cta :-moz-placeholder,html.locked-menu section.unlocked .locked-cta :-moz-placeholder,html.unlocked section.locked-original-text .locked-cta :-moz-placeholder,html.unlocked section.locked-menu .locked-cta :-moz-placeholder,html.unlocked section.unlocked .locked-cta :-moz-placeholder{color:#58a8ff}html.locked-original-text section.locked-original-text .locked-cta ::-moz-placeholder,html.locked-original-text section.locked-menu .locked-cta ::-moz-placeholder,html.locked-original-text section.unlocked .locked-cta ::-moz-placeholder,html.locked-original-text-menu section.locked-original-text .locked-cta ::-moz-placeholder,html.locked-original-text-menu section.locked-menu .locked-cta ::-moz-placeholder,html.locked-original-text-menu section.unlocked .locked-cta ::-moz-placeholder,html.locked-menu section.locked-original-text .locked-cta ::-moz-placeholder,html.locked-menu section.locked-menu .locked-cta ::-moz-placeholder,html.locked-menu section.unlocked .locked-cta ::-moz-placeholder,html.unlocked section.locked-original-text .locked-cta ::-moz-placeholder,html.unlocked section.locked-menu .locked-cta ::-moz-placeholder,html.unlocked section.unlocked .locked-cta ::-moz-placeholder{color:#58a8ff}html.locked-original-text section.locked-original-text .locked-cta :-ms-input-placeholder,html.locked-original-text section.locked-menu .locked-cta :-ms-input-placeholder,html.locked-original-text section.unlocked .locked-cta :-ms-input-placeholder,html.locked-original-text-menu section.locked-original-text .locked-cta :-ms-input-placeholder,html.locked-original-text-menu section.locked-menu .locked-cta :-ms-input-placeholder,html.locked-original-text-menu section.unlocked .locked-cta :-ms-input-placeholder,html.locked-menu section.locked-original-text .locked-cta :-ms-input-placeholder,html.locked-menu section.locked-menu .locked-cta :-ms-input-placeholder,html.locked-menu section.unlocked .locked-cta :-ms-input-placeholder,html.unlocked section.locked-original-text .locked-cta :-ms-input-placeholder,html.unlocked section.locked-menu .locked-cta :-ms-input-placeholder,html.unlocked section.unlocked .locked-cta :-ms-input-placeholder{color:#58a8ff}html.locked-original-text section.locked-original-text .locked-cta button,html.locked-original-text section.locked-menu .locked-cta button,html.locked-original-text section.unlocked .locked-cta button,html.locked-original-text-menu section.locked-original-text .locked-cta button,html.locked-original-text-menu section.locked-menu .locked-cta button,html.locked-original-text-menu section.unlocked .locked-cta button,html.locked-menu section.locked-original-text .locked-cta button,html.locked-menu section.locked-menu .locked-cta button,html.locked-menu section.unlocked .locked-cta button,html.unlocked section.locked-original-text .locked-cta button,html.unlocked section.locked-menu .locked-cta button,html.unlocked section.unlocked .locked-cta button{background:#58a8ff;border:1px solid #58a8ff;border-radius:50px;padding:10px 30px;font-size:14px}@media (max-width: 767px){html.locked-original-text section.locked-original-text .locked-cta button,html.locked-original-text section.locked-menu .locked-cta button,html.locked-original-text section.unlocked .locked-cta button,html.locked-original-text-menu section.locked-original-text .locked-cta button,html.locked-original-text-menu section.locked-menu .locked-cta button,html.locked-original-text-menu section.unlocked .locked-cta button,html.locked-menu section.locked-original-text .locked-cta button,html.locked-menu section.locked-menu .locked-cta button,html.locked-menu section.unlocked .locked-cta button,html.unlocked section.locked-original-text .locked-cta button,html.unlocked section.locked-menu .locked-cta button,html.unlocked section.unlocked .locked-cta button{margin:10px auto 0}}html.locked-original-text section.locked-original-text .see-more-wrapper,html.locked-original-text section.locked-menu .see-more-wrapper,html.locked-original-text section.unlocked .see-more-wrapper,html.locked-original-text-menu section.locked-original-text .see-more-wrapper,html.locked-original-text-menu section.locked-menu .see-more-wrapper,html.locked-original-text-menu section.unlocked .see-more-wrapper,html.locked-menu section.locked-original-text .see-more-wrapper,html.locked-menu section.locked-menu .see-more-wrapper,html.locked-menu section.unlocked .see-more-wrapper,html.unlocked section.locked-original-text .see-more-wrapper,html.unlocked section.locked-menu .see-more-wrapper,html.unlocked section.unlocked .see-more-wrapper{position:fixed;text-align:center;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);bottom:35px}html.locked-original-text section.locked-original-text .see-more-wrapper .see-more,html.locked-original-text section.locked-menu .see-more-wrapper .see-more,html.locked-original-text section.unlocked .see-more-wrapper .see-more,html.locked-original-text-menu section.locked-original-text .see-more-wrapper .see-more,html.locked-original-text-menu section.locked-menu .see-more-wrapper .see-more,html.locked-original-text-menu section.unlocked .see-more-wrapper .see-more,html.locked-menu section.locked-original-text .see-more-wrapper .see-more,html.locked-menu section.locked-menu .see-more-wrapper .see-more,html.locked-menu section.unlocked .see-more-wrapper .see-more,html.unlocked section.locked-original-text .see-more-wrapper .see-more,html.unlocked section.locked-menu .see-more-wrapper .see-more,html.unlocked section.unlocked .see-more-wrapper .see-more{padding:5px 10px;border-radius:3px;font-weight:400;color:#58a8ff;background:rgba(255,255,255,0.7)}html.locked-original-text section.locked-original-text .see-more-wrapper .see-more-arrow,html.locked-original-text section.locked-menu .see-more-wrapper .see-more-arrow,html.locked-original-text section.unlocked .see-more-wrapper .see-more-arrow,html.locked-original-text-menu section.locked-original-text .see-more-wrapper .see-more-arrow,html.locked-original-text-menu section.locked-menu .see-more-wrapper .see-more-arrow,html.locked-original-text-menu section.unlocked .see-more-wrapper .see-more-arrow,html.locked-menu section.locked-original-text .see-more-wrapper .see-more-arrow,html.locked-menu section.locked-menu .see-more-wrapper .see-more-arrow,html.locked-menu section.unlocked .see-more-wrapper .see-more-arrow,html.unlocked section.locked-original-text .see-more-wrapper .see-more-arrow,html.unlocked section.locked-menu .see-more-wrapper .see-more-arrow,html.unlocked section.unlocked .see-more-wrapper .see-more-arrow{display:none}@media (max-width: 767px){html.locked-original-text section.locked-original-text .see-more-wrapper,html.locked-original-text section.locked-menu .see-more-wrapper,html.locked-original-text section.unlocked .see-more-wrapper,html.locked-original-text-menu section.locked-original-text .see-more-wrapper,html.locked-original-text-menu section.locked-menu .see-more-wrapper,html.locked-original-text-menu section.unlocked .see-more-wrapper,html.locked-menu section.locked-original-text .see-more-wrapper,html.locked-menu section.locked-menu .see-more-wrapper,html.locked-menu section.unlocked .see-more-wrapper,html.unlocked section.locked-original-text .see-more-wrapper,html.unlocked section.locked-menu .see-more-wrapper,html.unlocked section.unlocked .see-more-wrapper{bottom:10px}}html.locked-original-text section.locked-original-text h1,html.locked-original-text section.locked-menu h1,html.locked-original-text section.unlocked h1,html.locked-original-text-menu section.locked-original-text h1,html.locked-original-text-menu section.locked-menu h1,html.locked-original-text-menu section.unlocked h1,html.locked-menu section.locked-original-text h1,html.locked-menu section.locked-menu h1,html.locked-menu section.unlocked h1,html.unlocked section.locked-original-text h1,html.unlocked section.locked-menu h1,html.unlocked section.unlocked h1{font-size:3em;font-weight:300;line-height:1.1}html.locked-original-text section.locked-original-text h1 strong,html.locked-original-text section.locked-menu h1 strong,html.locked-original-text section.unlocked h1 strong,html.locked-original-text-menu section.locked-original-text h1 strong,html.locked-original-text-menu section.locked-menu h1 strong,html.locked-original-text-menu section.unlocked h1 strong,html.locked-menu section.locked-original-text h1 strong,html.locked-menu section.locked-menu h1 strong,html.locked-menu section.unlocked h1 strong,html.unlocked section.locked-original-text h1 strong,html.unlocked section.locked-menu h1 strong,html.unlocked section.unlocked h1 strong{font-weight:bold}@media (min-width: 1200px) and (max-width: 1599px){html.locked-original-text section.locked-original-text h1,html.locked-original-text section.locked-menu h1,html.locked-original-text section.unlocked h1,html.locked-original-text-menu section.locked-original-text h1,html.locked-original-text-menu section.locked-menu h1,html.locked-original-text-menu section.unlocked h1,html.locked-menu section.locked-original-text h1,html.locked-menu section.locked-menu h1,html.locked-menu section.unlocked h1,html.unlocked section.locked-original-text h1,html.unlocked section.locked-menu h1,html.unlocked section.unlocked h1{font-size:2.3em}}@media (min-width: 992px) and (max-width: 1199px){html.locked-original-text section.locked-original-text h1,html.locked-original-text section.locked-menu h1,html.locked-original-text section.unlocked h1,html.locked-original-text-menu section.locked-original-text h1,html.locked-original-text-menu section.locked-menu h1,html.locked-original-text-menu section.unlocked h1,html.locked-menu section.locked-original-text h1,html.locked-menu section.locked-menu h1,html.locked-menu section.unlocked h1,html.unlocked section.locked-original-text h1,html.unlocked section.locked-menu h1,html.unlocked section.unlocked h1{font-size:2.3em}}@media (min-width: 768px) and (max-width: 991px){html.locked-original-text section.locked-original-text h1,html.locked-original-text section.locked-menu h1,html.locked-original-text section.unlocked h1,html.locked-original-text-menu section.locked-original-text h1,html.locked-original-text-menu section.locked-menu h1,html.locked-original-text-menu section.unlocked h1,html.locked-menu section.locked-original-text h1,html.locked-menu section.locked-menu h1,html.locked-menu section.unlocked h1,html.unlocked section.locked-original-text h1,html.unlocked section.locked-menu h1,html.unlocked section.unlocked h1{font-size:2.3em}}@media (max-width: 767px){html.locked-original-text section.locked-original-text h1,html.locked-original-text section.locked-menu h1,html.locked-original-text section.unlocked h1,html.locked-original-text-menu section.locked-original-text h1,html.locked-original-text-menu section.locked-menu h1,html.locked-original-text-menu section.unlocked h1,html.locked-menu section.locked-original-text h1,html.locked-menu section.locked-menu h1,html.locked-menu section.unlocked h1,html.unlocked section.locked-original-text h1,html.unlocked section.locked-menu h1,html.unlocked section.unlocked h1{font-size:1.4em}}html.locked-original-text section.locked-original-text h2,html.locked-original-text section.locked-menu h2,html.locked-original-text section.unlocked h2,html.locked-original-text-menu section.locked-original-text h2,html.locked-original-text-menu section.locked-menu h2,html.locked-original-text-menu section.unlocked h2,html.locked-menu section.locked-original-text h2,html.locked-menu section.locked-menu h2,html.locked-menu section.unlocked h2,html.unlocked section.locked-original-text h2,html.unlocked section.locked-menu h2,html.unlocked section.unlocked h2{color:#999;line-height:1.1;margin-top:15px;font-size:18px;font-weight:400}@media (min-width: 1200px) and (max-width: 1599px){html.locked-original-text section.locked-original-text h2,html.locked-original-text section.locked-menu h2,html.locked-original-text section.unlocked h2,html.locked-original-text-menu section.locked-original-text h2,html.locked-original-text-menu section.locked-menu h2,html.locked-original-text-menu section.unlocked h2,html.locked-menu section.locked-original-text h2,html.locked-menu section.locked-menu h2,html.locked-menu section.unlocked h2,html.unlocked section.locked-original-text h2,html.unlocked section.locked-menu h2,html.unlocked section.unlocked h2{font-size:15px;margin-top:10px}}@media (min-width: 992px) and (max-width: 1199px){html.locked-original-text section.locked-original-text h2,html.locked-original-text section.locked-menu h2,html.locked-original-text section.unlocked h2,html.locked-original-text-menu section.locked-original-text h2,html.locked-original-text-menu section.locked-menu h2,html.locked-original-text-menu section.unlocked h2,html.locked-menu section.locked-original-text h2,html.locked-menu section.locked-menu h2,html.locked-menu section.unlocked h2,html.unlocked section.locked-original-text h2,html.unlocked section.locked-menu h2,html.unlocked section.unlocked h2{font-size:15px;margin-top:10px}}@media (min-width: 768px) and (max-width: 991px){html.locked-original-text section.locked-original-text h2,html.locked-original-text section.locked-menu h2,html.locked-original-text section.unlocked h2,html.locked-original-text-menu section.locked-original-text h2,html.locked-original-text-menu section.locked-menu h2,html.locked-original-text-menu section.unlocked h2,html.locked-menu section.locked-original-text h2,html.locked-menu section.locked-menu h2,html.locked-menu section.unlocked h2,html.unlocked section.locked-original-text h2,html.unlocked section.locked-menu h2,html.unlocked section.unlocked h2{font-size:15px;margin-top:15px}}@media (max-width: 767px){html.locked-original-text section.locked-original-text h2,html.locked-original-text section.locked-menu h2,html.locked-original-text section.unlocked h2,html.locked-original-text-menu section.locked-original-text h2,html.locked-original-text-menu section.locked-menu h2,html.locked-original-text-menu section.unlocked h2,html.locked-menu section.locked-original-text h2,html.locked-menu section.locked-menu h2,html.locked-menu section.unlocked h2,html.unlocked section.locked-original-text h2,html.unlocked section.locked-menu h2,html.unlocked section.unlocked h2{font-size:0.8em}}html.locked-original-text section.locked-original-text .trial.tc,html.locked-original-text section.locked-menu .trial.tc,html.locked-original-text section.unlocked .trial.tc,html.locked-original-text-menu section.locked-original-text .trial.tc,html.locked-original-text-menu section.locked-menu .trial.tc,html.locked-original-text-menu section.unlocked .trial.tc,html.locked-menu section.locked-original-text .trial.tc,html.locked-menu section.locked-menu .trial.tc,html.locked-menu section.unlocked .trial.tc,html.unlocked section.locked-original-text .trial.tc,html.unlocked section.locked-menu .trial.tc,html.unlocked section.unlocked .trial.tc{display:none}html.locked-menu nav.navbar ul.nav.navbar-nav li{display:block}html.locked-horizontal section.locked-horizontal{display:block;position:relative;height:100vh}@media (min-width: 992px){html.locked-horizontal section.locked-horizontal .locked-cta .left{height:100vh;display:table}}@media (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left{padding-top:10vh}}@media (min-width: 992px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text{vertical-align:middle;display:table-cell;text-align:left}}@media (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text{text-align:center}}@media (min-width: 1600px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner{padding-left:12vw}}
+
+@media (min-width: 1200px) and (max-width: 1599px){
+	html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner{padding-left:7vw}}
+@media (min-width: 992px) and (max-width: 1199px){
+	html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner{padding-left:2vw}}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:3em;font-weight:300;line-height:1.2}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1 strong{font-weight:800}
+
+@media (min-width: 1600px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:2.6em}}
+
+@media (min-width: 1200px) and (max-width: 1599px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:2.6em}}
+@media (min-width: 992px) and (max-width: 1199px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:3em}}
+@media (min-width: 768px) and (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:3em}}
+@media (max-width: 767px){
+	html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner h1{font-size:1.6em}}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text .text-inner p{color:#bababa;padding-top:2vw}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text .signup-form-half{margin-top:42px}
+@media (min-width: 1200px) and (max-width: 1599px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .signup-form-half{margin-top:32px}}
+@media (max-width: 767px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .signup-form-half{margin-top:0}}
+@media (min-width: 992px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text .signup-form-half form{text-align:left}}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text input.email{background:#fff;border:1px solid #58a8ff;border-radius:50px;margin-right:10px;padding:10px 30px;width:280px;font-size:14px}
+@media (min-width: 992px) and (max-width: 1199px){
+	html.locked-horizontal section.locked-horizontal .locked-cta .left .text input.email{width:260px}}
+
+@media (min-width: 768px) and (max-width: 991px){
+	html.locked-horizontal section.locked-horizontal .locked-cta .left .text input.email{width:200px;margin-right:3px}}
+	@media (max-width: 767px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text input.email{margin-right:auto}}html.locked-horizontal section.locked-horizontal .locked-cta .left .text ::-webkit-input-placeholder{color:#58a8ff}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text :-moz-placeholder{color:#58a8ff}
+html.locked-horizontal section.locked-horizontal .locked-cta .left .text ::-moz-placeholder{color:#58a8ff}html.locked-horizontal section.locked-horizontal .locked-cta .left .text :-ms-input-placeholder{color:#58a8ff}html.locked-horizontal section.locked-horizontal .locked-cta .left .text button{background:#58a8ff;border:1px solid #58a8ff;border-radius:50px;padding:10px 30px;font-size:14px}@media (max-width: 767px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text button{margin:10px auto 0}}@media (min-width: 768px) and (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .text button{padding:10px 14px}}html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image{position:relative}@media (min-width: 768px) and (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image{height:60vh}}@media (max-width: 767px){html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image{height:50vh}}html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image img.board_example{width:auto;height:auto;top:0;bottom:0;left:0;right:0;margin:auto;max-height:auto;max-width:100vw}@media (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image img.board_example{position:absolute}}@media (max-width: 767px){html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image img.board_example{padding-top:10vh;max-height:70vh}}@media (min-width: 768px) and (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .left .mobile-image img.board_example{padding-top:10vh}}html.locked-horizontal section.locked-horizontal .locked-cta .right{position:relative}@media (min-width: 992px){html.locked-horizontal section.locked-horizontal .locked-cta .right{height:100vh}}@media (max-width: 991px){html.locked-horizontal section.locked-horizontal .locked-cta .right{height:100vh}}html.locked-horizontal section.locked-horizontal .locked-cta .right .board_example{opacity:0;-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;width:auto;height:auto;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;max-width:115%;max-height:115% !important}html.locked-horizontal section.locked-horizontal .see-more-wrapper{position:fixed;text-align:center;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);bottom:35px}html.locked-horizontal section.locked-horizontal .see-more-wrapper .see-more{padding:5px 10px;border-radius:3px;font-weight:400;color:#58a8ff;background:white}
+@media (max-width: 767px){
+	html.locked-horizontal section.locked-horizontal .see-more-wrapper{bottom:10px}}
+	
+html.locked-horizontal section.locked-horizontal .trial.tc{display:none}
+	section.home-vision-inverted .right .text {
+    margin: 0 0% 0 0%;
+}
+
+		section.home-vision-inverted .left .text {
+    margin: 0 0% 0 0%;
+}
+	@media (max-width: 1599px) and (min-width: 1200px) and (min-width: 992px){
+section.features-video section.features-ab-right .right .stores img {
+    width: 160px;
+		}}
+@media (min-width: 992px){
+section.features-video section.features-ab-right .right .stores img {
+    display: inline-block;
+    height: auto;
+    padding-right: 1vw;
+	}}
+	
+	section.features-video section.features-top-full .heading {
+    padding-top: 30px;
+}
+	
+	@media (min-width: 992px){
+section.features-video section.features-top-full {
+    margin-bottom: 70px;
+	margin-top: 20px;
+		}}
+	
+section.features-video #overlay_close_btn {
+    display: none;
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    right: 15px;
+    top: 15px;
+    z-index: 1041;
+}
+
+	section.features-video #overlay_vid {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1040;
+    background-color: black;
+    border-radius: 10px;
+}
+	
+	section.features-video #overlay_back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    z-index: 1030;
+    display: none;
+}
+	
+section.features-video section.features-ab-left .left .text p {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #bababa;
+}	
+	
+section.features-video section.features-ab-right .right img {
+
+    margin-bottom: 20px;
+}
+
+	section.features-video section.features-top-full .footer .logos img {
+    width: 700px;
+    height: auto;
+    filter: brightness(0%);
+    -webkit-filter: brightness(0%);
+}
+@media (min-width: 992px){
+section.features-video section.features-top-full .vid-container img {
+    width: 950px;
+	   height: auto;
+	}}
+
+	@media (min-width: 992px){
+section.features-video section.features-top-full .footer>p {
+    font-size: 24px;
+		}}
+	
+section.features-video section.features-top-full .footer>p {
+    margin-bottom: 10px;
+    color: white;
+	}
+	
+	section.security-banner .right {
+    background: url('https://res.cloudinary.com/piropay/image/upload/v1484777069/protect_blue_s0pae9.png') no-repeat center center;
+    background-size: cover;
+}
+	
+
+@media (min-width: 992px){
+section.features-video section.features-top-full.bg-small {
+    background: -webkit-linear-gradient(top, transparent 45%, transparent 45%, #03b1ff 45%, #03b1ff 100%)!important;
+    background: linear-gradient(180deg, transparent 45%, transparent 45%, #9d5de0 45%, #9d5de0 100%);
+	}
+
+section.features-video section.features-top-full.bg-small {
+    height: 1000px;
+	}}
+
+	section.features-video section.features-top-full .heading .signup-form-half form button {
+    color: #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    background-color: #fd5de0!important;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 200 !important;
+}
+
+	section.features-video section.features-ab-left .left .text h2 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+	
+	@media (min-width: 992px){
+section.features-video section.features-ab-left .right img {
+    width: 470px;
+    height: auto;
+    float: left;
+    margin: 70px 0 70px 20px;
+		}}
+section.features-video section.features-ab-left .right img {
+    width: 90%;
+    margin: 40px 0 40px 0;
+}
+
+@media (min-width: 992px){
+section.features-video section.features-ab-right .left img {
+    width: 470px;
+    float: right;
+    margin: 70px 0 70px 0;
+	}}
+section.features-video section.features-ab-right .left img {
+    width: 90%;
+    margin: 70px 0% 40px 14%;
+}
+img {
+    vertical-align: middle;
+}	
+	
+	
+	@media (min-width: 992px){
+section.features-video section.features-ab-right .right .text h2 {
+    margin-bottom: 20px;
+		}}
+section.features-video section.features-ab-right .right .text h2 {
+    color: #333;
+    font-size: 1.6em;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+@media (min-width: 992px)
+.desktop-hidden {
+    display: none !important;
+}
+	
+section.features-video section.features-top-full.bg-small {
+    background: -webkit-linear-gradient(top, transparent 45%, transparent 45%, #03b1ff 45%, #03b1ff 100%)!important;
+    background: linear-gradient(180deg, transparent 45%, transparent 45%, #9d5de0 45%, #9d5de0 100%);
+	}
+
+section.features-video section.features-top-full.bg-small {
+    height: 1000px;
+	}
+	
+	section.features-video section.features-ab-left .left .text p {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #bababa;
+}
+	
+	@media (min-width: 992px){
+section.features-video section.features-ab-left .right img {
+    width: 470px;
+    height: auto;
+    float: left;
+    margin: 70px 0 70px 20px;
+}
+	}
+	
+	section.features-video section.features-ab-left .left .text h2 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+	
+	section.features-video section.features-ab-left .left .text {
+    width: 470px;
+    float: right;
+}
+	
+	section.features-video section.features-ab-left .right img {
+    width: 470px;
+    height: auto;
+    float: left;
+    margin: 70px 0 70px 20px;
+}
+	
+	
+
+	section.original{display:none}
+html.original section.original{display:block}
+	
+	section.isometric{display:none}
+	html[class*=" isometric"] section.isometric{display:block}
+	html.unlocked,html.unlocked body{height:initial;position:static;overflow:initial;-webkit-overflow-scrolling:initial}
+	html.unlocked section.unlocked .see-more-wrapper .see-more{display:none}
+	html.unlocked section.unlocked .see-more-wrapper .see-more-arrow{display:block;cursor:pointer}
 
 
 #portfolio .portfolio-item {

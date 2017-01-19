@@ -422,7 +422,7 @@ section.success {
 }
 
 
-html.locked-original-text section.original {
+section.original {
 display: block;	
 }
 
@@ -1161,7 +1161,7 @@ section.features-video #overlay_close_btn {
     z-index: 1041;
 }
 
-	section.features-video #overlay_vid {
+.features-video #overlay_vid {
     position: fixed;
     top: 10%;
     left: 10%;
@@ -1750,3 +1750,52 @@ fieldset[disabled] .btn-success.active {
     transition: background-color .25s;
 }
 
+
+.iso-features{background-color:#fff} 
+.iso-features .heading{padding:4vw 8vw;text-align:center}
+
+.iso-features .heading h1{color:#9D5DE0}
+@media (min-width: 992px){
+	.iso-features .heading h1{font-size:2.5vw}}
+
+@media (max-width: 991px){
+	.iso-features .heading h1{font-size:1.5em;padding:10vw 0 5vw 0}}
+
+        .iso-features .fboxes{padding:0 4vw}
+ .iso-features .fboxes .fbox{min-height:15vw;border:0}
+@media (max-width: 991px){
+	.iso-features .fboxes .fbox{padding:3vw 68px 3vw 68px}}
+ .iso-features .fboxes .fbox .fbox-icon svg{height:2.2vw;width:auto}
+@media (min-width: 992px) and (max-width: 1199px){
+.iso-features .fboxes .fbox .fbox-icon svg{height:4vw}}
+@media (min-width: 768px) and (max-width: 991px){
+.iso-features .fboxes .fbox .fbox-icon svg{height:4vw}}
+@media (max-width: 767px){
+	.iso-features .fboxes .fbox .fbox-icon svg{height:10vw;padding:1vw 0 1vw 0}}
+.iso-features .fboxes .fbox .fbox-header{font-weight:400}
+.iso-features .fboxes .fbox .fbox-text{padding-top:0.5vw;font-weight:300}
+.iso-features .fboxes .fbox.bhidden{display:none}
+.iso-features .fboxes .fbox.cross:before{content:'+';color:#FDDF9E;font-size:32px;position:absolute;right:-9px;bottom:-22px}
+.iso-features .box-btn{padding:2vw 0}
+
+.iso-features .box-btn button{-webkit-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out;background-color:white;border:1px solid #9D5DE0;border-radius:20px;padding:0.5vw 3vw;color:#9D5DE0;outline:0;font-weight:200}
+
+.iso-features .box-btn button:hover{background-color:#bc7bff;border-color:#9D5DE0;color:white}
+
+.iso-features .box-btn button:active{outline:none;box-shadow:inset 0px 0px 8px 0px rgba(0,0,0,0.55)}
+
+.iso-full{padding-top:2vw;background-color:#fafafa;color:#333}
+
+.iso-full .heading{padding:1vw 0 4vw 0}
+
+@media (max-width: 991px){
+	.iso-full .heading h1{font-size:1.5em;padding:10vw 0 5vw 0}}
+.iso-full .heading p{padding-top:1vw;color:#bababa}
+.iso-full .full-image img{width:90%;height:auto}
+
+.iso-twitter .heading{padding:5vw 0 1vw 0}
+.iso-twitter .carousel{padding:20px}
+.iso-twitter .carousel.slick-slider{margin-bottom:40px}
+.iso-twitter .carousel .tweets:focus{outline:none}
+.iso-twitter .carousel .tweets .twitter-tweet{margin:25px auto !important}
+.iso-twitter .carousel .slick-dots{margin-bottom:4vh;margin-top:2vh}

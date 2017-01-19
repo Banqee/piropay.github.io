@@ -79,6 +79,7 @@ html.no-templates nav.navbar ul.navbar-nav li.templates{display:none}
 html.navbarsmall nav.navbar ul.navbar-nav li.navbarsmall:not(.login-box),html.navbarsmall nav.navbar ul.navbar-nav li.navbarsmall:not(.signup-box){display:none}
 html.navbarsmall nav.navbar ul.navbar-nav li.navbarsmall.login-box a{display:none}
 html.hp-min nav.navbar{background-color:transparent;border-color:transparent}
+
 @media (min-width: 768px){
 	nav.navbar div.navbar-header{height:100%;position:absolute;font:0/0 a;white-space:nowrap;text-align:center}
 	nav.navbar div.navbar-header a.navbar-brand{height:100%;padding:0 15px}

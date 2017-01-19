@@ -24,10 +24,11 @@ facebook_username: Piropay
 linkedin_url: https://
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+address_street: B 29 Harley Street
+address_city: London
+address_state: England
+address_zip: W1G 2QR
+address_country: UK
 
 # Build settings
 markdown: kramdown

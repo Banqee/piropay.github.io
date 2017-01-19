@@ -450,15 +450,6 @@ footer .footer-below {
   background-color: #233140;
 }
 
-.scroll-top .btn {
-    font-size: 32px!important;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    line-height: 38px!important;
-    padding: 12px;
-}
-
 .btn-outline {
   color: white;
   font-size: 20px;
@@ -574,18 +565,18 @@ fieldset[disabled] .btn-success.active {
 .btn.active {
   outline: none;
 }
-.scroll-top {
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;
-  height: 50px;
-  z-index: 1049;
+}.scroll-top{
+	position:fixed;
+	right:2%;
+	bottom:2%;
+	z-index:1049
 }
-
-.scroll-top .btn:focus {
-  outline: none;
+.scroll-top .btn{
+	font-size:20px;
+	border-radius:100%;
+	line-height:28px
 }
+.scroll-top .btn:focus{outline:0}.
 
 .portfolio-modal .modal-content {
   border-radius: 0;

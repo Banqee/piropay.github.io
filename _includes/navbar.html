@@ -32,10 +32,10 @@
                 </li>
                    
                   <li class="">
-                    <a class="login" href="https://secure.piropaygateway.com">Login</a>
+                    <a class="login" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in navbar', 'From page: ' + window.location.pathname); }" href="https://secure.piropaygateway.com">Login</a>
                 </li>
                <li class="signup">
-               <a href="#{{ post.modalID }}" class="portfolio-link" data-toggle="modal">">Sign Up</a>
+               <a href="javascript:void(0)" class="portfolio-link" data-toggle="modal" data-target="#signupModal">">Sign Up</a>
                 </li>
             </ul>
         </div>

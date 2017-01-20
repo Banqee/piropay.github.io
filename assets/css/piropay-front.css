@@ -1905,3 +1905,59 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     height: 25vw;
 	    width: 85%;
 	}}
+.bg-8 {
+    background: #9D5DE0;
+    color: #fff;
+}
+
+.pricing {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
+}
+
+.pricing-section__title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 3em 0 5em;
+    flex: none;
+}
+	
+.pricing-section {
+    padding: 2em 0 8em;
+    min-height: 100vh;
+    position: relative;
+}
+.codrops-header, .pricing-section {
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+	
+.pricing--tashi .pricing__item {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0.5em;
+    padding: 2em 2.5em;
+    text-align: left;
+    color: #fff;
+    background: #262c37;
+}
+	
+
+.pricing--tashi .pricing__title {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 0.15em;
+    color: #E25A77;
+}

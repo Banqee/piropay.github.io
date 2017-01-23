@@ -1918,13 +1918,13 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
-    margin: 0 auto 3em;
+    margin: 0 auto 1em;
 }
-	.codrops-header,
+	
 .pricing-section {
 	min-height: 100vh;
 	display: -webkit-flex;
-	display: flex;
+	display: inline-block!important;
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	-webkit-justify-content: center;
@@ -1968,17 +1968,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     min-height: 100vh;
     position: relative;
 }
-.codrops-header, .pricing-section {
-    min-height: 100vh;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
+
+
 	
 .pricing__item {
     font-family: 'Roboto Condensed', sans-serif;
@@ -2079,4 +2070,173 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     font-weight: 300;
     padding: 0.85em 0;
 }
+	
+
+@media (max-width: 767px) {
+	.bg-8 {
+    background: #9D5DE0;
+    color: #fff;
+}
+
+.pricing {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 1em;
+}
+	
+.pricing-section {
+	min-height: 100vh;
+	display: -webkit-flex;
+	display: inline-block!important;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.pricing-section {
+	padding: 2em 0 8em;
+	min-height: 100vh;
+	position: relative!important;
+}
+
+.pricing-section__title {
+	font-size: 1.4em;
+	font-weight: 700;
+	margin: 3em 0 5em;
+	flex: none;
+}
+
+.pricing-section a {
+	color: #333;
+}
+
+.pricing-section a:hover, 
+.pricing-section a:focus {
+	color: #000;
+}
+
+
+.pricing-section__title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 3em 0 5em;
+    flex: none;
+}
+	
+.pricing-section {
+    padding: 2em 0 8em;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+	
+.pricing__item {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0.5em;
+    padding: 2em 2.5em;
+    text-align: left;
+    color: #fff;
+    background: #262c37;
+}
+	
+
+.pricing__title {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 0.15em;
+    color: #E25A77;
+}
+
+
+.pricing__sentence {
+    padding: 0 0 0.5em;
+    margin: 0;
+    color: #535965;
+}
+	
+.pricing__price {
+    font-size: 3em;
+    font-weight: 300;
+    padding: 0.85em 0;
+}
+	
+.pricing__currency {
+    font-size: 0.65em;
+    vertical-align: super;
+    color: #394150;
+}
+	
+.pricing__period {
+    font-size: 0.35em;
+    padding: 0 0 0 0.5em;
+    color: #535965;
+}
+	
+.pricing__feature-list {
+    font-size: 0.95em;
+    margin: 0;
+    padding: 0 0 2.5em;
+    list-style: none;
+    color: #757983;
+}
+	
+.pricing__feature-list {
+    text-align: left;
+}
+	
+.pricing__action {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    margin-top: auto;
+    font-size: 1.55em;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 30px;
+    background: #E25A77;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+	
+.pricing__item {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0.5em;
+    padding: 2em 2.5em;
+    text-align: left;
+    color: #fff;
+    background: #262c37;
+}
+	
+.pricing--tashi .pricing__item:nth-child(2) .pricing__title {
+    color: #E25ABC;
+}
+.pricing--tashi .pricing__title {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 0.15em;
+    color: #E25A77;
+}
+
+	.pricing--tashi .pricing__sentence {
+    padding: 0 0 0.5em;
+    margin: 0;
+    color: #535965;
+}
+
+.pricing--tashi .pricing__price {
+    font-size: 3em;
+    font-weight: 300;
+    padding: 0.85em 0;
+}
+	}
 	

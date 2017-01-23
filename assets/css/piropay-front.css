@@ -1924,6 +1924,7 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     justify-content: center;
     width: 100%;
     margin: 0 auto 1em;
+	padding-top: -0px!important;
 }
 	
 .pricing-section {

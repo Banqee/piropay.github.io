@@ -1836,8 +1836,14 @@ fieldset[disabled] .btn-success.active {
     overflow: hidden;
 }
 
+.btn-piropa-cta a {
+    color: #fff;
+	border: 1px solid #fff;
+}
+
 .btn-piropay-cta:hover {
     color: #ccc;
+	border: 1px solid #ccc;
 }
 .iso-features{background-color:#fff} 
 .iso-features .heading{padding:4vw 8vw;text-align:center}

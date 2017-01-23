@@ -1905,8 +1905,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
 	    width: 85%;
 	}}
 .bg-8 {
-    background: #9D5DE0;
-    color: #fff;
+    background: #FFF;
+    color: #9D5DE0;
 }
 
 .pricing {
@@ -2073,8 +2073,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
 
 @media (max-width: 767px) {
 	.bg-8 {
-    background: #9D5DE0;
-    color: #fff;
+    background: #fff;
+    color: #9D5DE0;
 }
 
 .pricing {

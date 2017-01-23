@@ -1909,7 +1909,6 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
 .desktop-section-height {
     padding-top: 10px;
     height: 25vw;
-	    width: 85%;
 	}}
 .bg-8 {
     background: #FFF;
@@ -1982,8 +1981,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     margin: 0.5em;
     padding: 2em 2.5em;
     text-align: left;
-    color: #fff;
-    background: #262c37;
+    color: #262c37;
+    background: #fff;
 }
 	
 
@@ -2039,9 +2038,9 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: #fff;
+    color:#E25A77;
     border-radius: 30px;
-    background: #E25A77;
+    background: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -2051,8 +2050,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     margin: 0px;
     padding: 2em 2.5em;
     text-align: left;
-    color: #fff;
-    background: #262c37;
+    color:#262c37;
+    background: #fff;
 }
 	
 .pricing--tashi .pricing__item:nth-child(2) .pricing__title {
@@ -2207,9 +2206,9 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: #fff;
+    color: #E25A77;
     border-radius: 30px;
-    background: #E25A77;
+    background: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -2219,8 +2218,8 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     margin: 0em;
     padding: 2em 2.5em;
     text-align: left;
-    color: #fff;
-    background: #262c37;
+    color: #262c37;
+    background: #FFF;
 }
 	
 .pricing--tashi .pricing__item:nth-child(2) .pricing__title {

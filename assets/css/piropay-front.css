@@ -2391,3 +2391,21 @@ section.csteam-banner .right h1 {
 .m0 {
     margin: 0;
 }
+
+.copy {
+    margin: 0;
+font-size: 12px;
+	padding; 5px 0px 6px 0px;
+}
+	
+.copy a {
+  color: #fff;
+}
+	
+.copy a:hover, .copy a:focus {
+  color: #ccc;
+}
+	
+.copy:hover {
+  color: #ccc;
+}

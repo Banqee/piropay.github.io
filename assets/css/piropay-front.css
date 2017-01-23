@@ -2264,3 +2264,33 @@ section.csteam-banner .faq-search .input-field-container .input-field {
     font-weight: 300;
     font-size: 15px;
 }
+	
+.searc-button:hover {
+    color: #9f58e4;
+    background: #fff;
+}
+@media (max-width: 1599px) and (min-width: 1200px){
+.searc-button {
+    padding: 10px 20px;
+	}}
+.searc-button {
+    margin: 5px;
+    color: #fff;
+    background: #9f58e4;
+    border: 1px solid #fff;
+    -webkit-transition: background .25s ease-in-out;
+    transition: background .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+    transition: color .25s ease-in-out;
+}
+@media (max-width: 1599px) and (min-width: 1200px) {
+section.csteam-banner .faq-search .input-field, section.csteam-banner .faq-search .searc-button {
+    font-size: 16px;
+	}}
+
+section.csteam-banner .faq-search .input-field, section.csteam-banner .faq-search .searc-button {
+    border-radius: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+

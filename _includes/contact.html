@@ -1,5 +1,5 @@
 <!-- Contact Section -->
-<section class="container-fluid fwhite bg-grey csteam-banner" id="contact"> 
+<section class="container-fluid iso-full csteam-banner" id="contact"> 
            <div class="row">
                 <div class="col-lg-12 tc">
                     <h2 class="tc">Contact us</h2>
@@ -11,7 +11,46 @@
         <div class="col-md-6 col-xs-12 bc tc desktop-section-height mobile-section-height right"> 
             <div class="center"> 
                 <h1 class="fw300 m0">It's our mission to provide the best customer service in the&nbsp;universe.</h1> 
-                <div class="faq-search"> <form action="https://support.piropay.com/hc/en-us/search" method="get"> 
+                        <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                       
+                <div class="faq-search hidden"> 
+                           <form action="https://support.piropay.com/hc/en-us/search" method="get"> 
                     <input type="hidden" name="utf-8" value="✓"> 
                     <input type="hidden" name="commit" value="Search"> 
                     <div class="input-field-container"> <input class="input-field" placeholder="Ask away..." name="query"> 
@@ -25,7 +64,7 @@
 
      
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 hidden">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>

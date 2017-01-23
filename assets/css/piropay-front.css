@@ -1498,17 +1498,19 @@ footer {
   color: white;
 }
 footer h3 {
-  margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top:40px;
   background-color: #2C3E50;
 }
 footer .footer-col {
-  margin-bottom: 50px;
+  margin-bottom: 540px;
 }
 footer .footer-below {
-  padding: 25px 0;
+  padding: 20px 0;
   background-color: #233140;
 }
 
@@ -1524,14 +1526,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #9d5de0;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #9d5de0;
+  border-color: #9d5de0;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -1539,9 +1541,10 @@ footer .footer-below {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
+  color: #ccc;
+	opacity: 5;
+  background-color: 9d5de0;
+  border-color: #9d5de0;
 }
 .btn-primary:active,
 .btn-primary.active,

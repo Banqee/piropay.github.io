@@ -145,6 +145,7 @@ hr.star-primary {
 hr.star-primary:after {
   background-color: white;
   color: #444444;
+	border-radius: 50%;
 }
 .img-centered {
   margin: 0 auto;

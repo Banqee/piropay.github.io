@@ -2039,9 +2039,9 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color:#E25A77;
+    color:#FFF;
     border-radius: 30px;
-    background: #fff;
+    background: #9D5DE0;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -2207,9 +2207,9 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
     width: 60px;
     height: 60px;
     line-height: 60px;
-    color: #E25A77;
+    color: #FFFFFF;
     border-radius: 30px;
-    background: #fff;
+    background: #9D5DE0;
     -webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }

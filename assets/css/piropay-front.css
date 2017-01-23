@@ -1722,7 +1722,6 @@ fieldset[disabled] .btn-success.active {
     display: inline-block;
     user-select: none;
     padding: 1.25rem 2.5rem;
-    font-size: 1.5rem;
     line-height: 1em;
     font-weight: 600;
     letter-spacing: 0.01em;

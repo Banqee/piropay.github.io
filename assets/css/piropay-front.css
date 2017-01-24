@@ -1099,7 +1099,15 @@ font-size: 65%;
 @media (min-width: 992px){
 .home-vision {
     border-bottom: 0px solid #eee!important;
+	color:#fff;
 	}}
+
+
+.home-vision {
+    border-bottom: 0px solid #eee!important;
+	color:#fff;
+}
+
 @media (max-width: 991px){
 .home-testimonials .right .carousel .item .image{margin-bottom:20px;width:100%}}
 .home-testimonials .right .carousel .item .image img{width:100%}

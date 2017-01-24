@@ -2518,7 +2518,7 @@ float: left;
 
 .home-vision .left .text h4 {
     font-size: 1.2vw;
-    margin-top: 6px;
+    margin-top: 15px;
 }
 
 .home-vision .left .text p {
@@ -2555,13 +2555,14 @@ float: left;
 }
 
 .right .text h4 {
-	 line-height: 1.8vw;
+    line-height: 20px;
     font-size: 16px;
-    margin-top: 6px;
+    margin-top: 12px!important;
+	font-weight:400!important;
 }
 
 .right .text p {
- line-height: 1.2vw;
+	    line-height: 20px;
     font-size: 15px;
     margin-top: 15px;
 }
@@ -2580,7 +2581,7 @@ float: left;
 
 .text h4 {
   font-size: 16px!important;
-    margin-top: 6px;
+  margin-top: 15px;
 }
 
 .text p {

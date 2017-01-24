@@ -1959,6 +1959,7 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
  
 .text h2 {
 margin-bottom: 10px;
+	margin-top: 10px;
     font-size: 2.3em;
 	}
 	

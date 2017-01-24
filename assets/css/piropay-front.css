@@ -3129,7 +3129,16 @@ margin-bottom: 10px;
     margin-bottom: 0;
 }
 
-
+.contact-block .media-left i {
+    font-size: 48px;
+    max-width: 50px;
+    min-width: 50px;
+    padding-right: 0;
+    text-align: center;
+    color: #ababab;
+    line-height: 66px;
+    padding-top: 10px;
+}
 
 
 

@@ -1919,7 +1919,7 @@ section.locked-original-text .locked-cta, section.locked-menu .locked-cta, secti
 }
 
 .home-vision-inverted .left img {
-    width: 105%;
+    width: 100%;
     margin: 50px -5% 0 0;
 }
 
@@ -1958,7 +1958,7 @@ html.locked-original-text section.locked-original-text h2, html.locked-original-
 }
  
 .text h2 {
-	    margin: 12px;
+margin-bottom: 10px;
     font-size: 2.3em;
 	}
 	

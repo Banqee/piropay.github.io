@@ -2471,6 +2471,15 @@ float: left;
 .home-vision-inverted .right .text {
     margin: 0 8% 0 13%;
 }
+
+.home-vision-inverted .left {
+    padding: 0 !important;
+	    margin: 0 8% 0 13%;
+}
+
+.home-vision-inverted .left .text {
+ margin: 0 8% 0 13%;
+}
 	
 .home-vision-inverted .right .text h2 {
     color: #FFF;

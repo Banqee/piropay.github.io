@@ -1106,6 +1106,7 @@ font-size: 65%;
 .home-vision {
     border-bottom: 0px solid #eee!important;
 	color:#fff;
+	padding-top:100px;
 }
 
 @media (max-width: 991px){

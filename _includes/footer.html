@@ -32,6 +32,13 @@
                     <p><a href="https://piropay.com">{{ site.title }}</a> provides innovative payment services and tools for thousands of businesses worldwide.</p>
                 </div>
   		    
+	
+           <div class="footer-col col-md-4">
+                    <h3>Contact</h3>
+                    <p>{{ site.address_street }}
+                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
+                </div>
+		    
                 <div class="footer-col col-md-4">
                     <h3>Social</h3>
                     <ul class="list-inline">
@@ -77,12 +84,6 @@
                         {% endif %}
                     </ul>
                 </div>
-	
-           <div class="footer-col col-md-4">
-                    <h3>Contact</h3>
-                    <p>{{ site.address_street }}
-                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
-                </div>
 		  		    
             </div>
         </div>
@@ -94,19 +95,22 @@
 <div class="col-lg-4 col-xs-12 col-md-height group-copy group-copy">
                    <div class="copy fw300 left"> &copy;{{ site.time | date: "%Y" }} Piropay.com&nbsp;-&nbsp;All Rights Reserved.&nbsp; </div>
                 </div>
-		    	<div class="col-md-4 col-xs-12 col-md-height" style="margin-left:20px;"> 	
-<div class="copy fw300 tc" style="margin-top:12px;"> 
+		    
+		    <div class="col-lg-4 col-xs-12 col-md-height col-md-middle group-copy" style="margin-left:20px;"> 
+<span class="tc" style="margin-top:-10px;"><img src="https://res.cloudinary.com/piropay/image/upload/v1484552277/cc-ft-logo-wt_lyjjqn.png"width="220px"/></span>
+	</div>
+
+<div class="col-md-4 col-xs-12 col-md-height" style="margin-left:20px;"> 	
+<div class="copy fw300 right" style="margin-top:12px;"> 
 <a class="copy fw300" href="tou/index.html">Terms</a>&nbsp;|
 <a class="copy fw300" href="tou/index.html#privacy_policy">Privacy</a>&nbsp;| 
 <a class="copy fw300" href="legal/index.html">Legal</a>&nbsp;| 	
 <a class="copy fw300" href="security/index.html">Security</a>&nbsp;| 
-<a class="copy fw300" href="status/index.html">Status</a>&nbsp;|    
-<a class="copy fw300" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in footer', 'From page: ' + window.location.pathname); }" href="https://secure.piropaygateway.com"><i class="fa fa-sign-in" aria-hidden="true"></i></a>&nbsp;     
+<a class="copy fw300" href="status/index.html">Status</a>&nbsp;   
+<a class="copy fw300 hidden" onclick="if(typeof ga != 'undefined') { ga('send', 'event', 'Logged In', 'Clicked Log In in footer', 'From page: ' + window.location.pathname); }" href="https://secure.piropaygateway.com"><i class="fa fa-sign-in" aria-hidden="true"></i></a>&nbsp;     
 	</div> 
 				</div> 
-<div class="col-lg-4 col-xs-12 col-md-height col-md-middle group-copy right" style="margin-left:20px;"> 
-<span class="right" style="margin-top:-10px;"><img src="https://res.cloudinary.com/piropay/image/upload/v1484552277/cc-ft-logo-wt_lyjjqn.png"width="220px"/></span>
-	</div>
+
 
             </div>
         </div>

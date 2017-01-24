@@ -1933,7 +1933,7 @@ fieldset[disabled] .btn-success.active {
 section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta,section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta, xt-menu section.locked-original-text .locked-cta  {
     margin: 20px auto 0;
     text-align: center;
-    width: 95%;
+    width: 99%;
 }
 
 .home-vision-inverted .left img {

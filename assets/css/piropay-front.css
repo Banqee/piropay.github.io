@@ -2578,6 +2578,12 @@ float: left;
     position: relative;
 }
 
+
+.grid--with-gutters {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
 .payment-method-box {
     display: -webkit-box;
     display: -moz-box;
@@ -2609,4 +2615,12 @@ float: left;
     height: 13.125rem;
     margin-bottom: 1.875rem;
     position: relative;
+}
+
+.default-content img[class^="image--logo"] {
+    margin-bottom: 0;
+}
+.image--logo {
+    height: 5.625rem;
+    width: auto;
 }

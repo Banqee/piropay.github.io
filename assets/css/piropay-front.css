@@ -2740,7 +2740,7 @@ float: left;
 
 .info-icons {
     font-size:  4.625rem;
-    text-shadow: 0 0px 0 #111; 
+    text-shadow: 0 3px 0 #FFF; 
     color: #4e4e4e;
 }
  .fa-6 {

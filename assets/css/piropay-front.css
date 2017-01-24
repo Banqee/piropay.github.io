@@ -2689,6 +2689,7 @@ float: left;
     margin-top: 1.475rem;
     margin-bottom: 1.475rem;
     position: relative;
+	width:108%;
 }
 
 .integration-method-type {
@@ -2724,6 +2725,7 @@ float: left;
     margin-top: 1.475rem;
     margin-bottom: 1.475rem;
     position: relative;
+		width:108%;
 }
 
 .default-content img[class^="image--logo"] {

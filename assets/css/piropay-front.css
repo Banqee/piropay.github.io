@@ -3052,10 +3052,87 @@ contact-us .right form#contact_us_form input#contact-us_email {
     border-top: 1px solid #F0AB2C;
 }
 
+.contact-block .media-body-first {
+    padding: 10px 0px 10px 15px;
+}
+
+.contact-block {
+margin-bottom: 10px;
+}
+
+.media-body-first {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-body-first {
+    width: 10000px;
+}
+
+.media-body-first {
+    display: table-cell;
+    vertical-align: top;
+}
 .left-col {
     float: left;
     padding-right: 10px;
 }
+
+.contact-block .media {
+    background: #fff;
+    border-bottom: solid 1px #c7c9c8;
+    margin-bottom: 15px;
+}
+
+.contact-block .media-left {
+    font-size: 40px;
+    max-width: 50px;
+    min-width: 50px;
+    padding-right: 0;
+    text-align: center;
+}
+.contact-methods .item-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+.contact-block .media-left i {
+    font-size: 48px;
+    max-width: 50px;
+    min-width: 50px;
+    padding-right: 0;
+    text-align: center;
+    color: #ababab;
+    line-height: 66px;
+    padding-top: 10px;
+}
+
+.contact-block .media-body-first {
+    padding: 10px 0px 10px 15px;
+}
+
+.contact-block h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.contact-block p {
+    font-weight: 400;
+    font-size: 15px;
+}
+.contact-block:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
 
 .item {
     margin-bottom: 10px;

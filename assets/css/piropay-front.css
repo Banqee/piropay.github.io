@@ -2516,3 +2516,11 @@ float: left;
     padding-top: 50px;
     padding-bottom: 65px;
 }
+
+.img-how {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 260px;
+    margin: auto;
+}

@@ -2401,9 +2401,18 @@ font-size: 14px;
 	padding; 5px 0px 6px 0px;
 }
 	
+	@media (max-width: 1599px) and (min-width: 1200px)
+@media (max-width: 1599px) and (min-width: 1200px) {
+.copy {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+float: left;
+	} }
+	
 .copy a {
   color: #fff;
-	    padding: 5px;
+  padding: 5px;
 }
 
 @media (max-width: 1599px) and (min-width: 1200px)

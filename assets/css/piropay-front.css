@@ -2647,3 +2647,9 @@ margin-right: .07142857em;
 margin-right: .07142857em;
     font-size: 8em;
 }
+
+.col-md-middle {
+    vertical-align: middle;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

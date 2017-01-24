@@ -2520,6 +2520,23 @@ float: left;
     margin-top: 15px;
 }
 
+
+
+.home-vision .right.text {
+    margin: 0 13% 0 8%;
+}
+
+.home-vision .right .text h4 {
+    font-size: 1.2vw;
+    margin-top: 6px;
+}
+
+.home-vision .right .text p {
+    font-size: 1.2vw;
+    margin-top: 15px;
+}
+
+
 .right .text {
     margin: 0 13% 0 8%;
 }

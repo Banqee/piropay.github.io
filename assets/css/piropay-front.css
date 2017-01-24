@@ -2828,3 +2828,14 @@ margin-right: .07142857em;
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+@media (max-width: 1599px) and (min-width: 1200px){
+.locked-cta h1{
+    margin-top: 140px;
+	}
+}
+
+.locked-cta h1{
+    margin-top: 140px;
+	}
+

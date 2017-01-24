@@ -3049,3 +3049,33 @@ contact-us .right form#contact_us_form input#contact-us_name {
 contact-us .right form#contact_us_form input#contact-us_email {
     border-top: 1px solid #F0AB2C;
 }
+
+.left-col {
+    float: left;
+    padding-right: 10px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.item-inner {
+    padding: 10px 15px 20px 10px;
+    border-bottom: 1px solid #c7c9c8;
+}
+
+.item-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.item-inner .fa {
+    margin-right: 5px;
+    color: #ababab;
+    font-size: 28px;
+    max-width: 40px;
+    min-width: 40px;
+}

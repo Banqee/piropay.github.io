@@ -2612,7 +2612,7 @@ float: left;
     -ms-flex-pack: center;
     background-color: #E8E8E8;
     border: 1px solid #E8E8E8;
-    height: 13.125rem;
+    height: 9.125rem;
     margin-bottom: 1.875rem;
     position: relative;
 }
@@ -2621,6 +2621,6 @@ float: left;
     margin-bottom: 0;
 }
 .image--logo {
-    height: 5.625rem;
+    height: 4.625rem;
     width: auto;
 }

@@ -1863,7 +1863,11 @@ fieldset[disabled] .btn-success.active {
     color: #ccc;
 	border: 1px solid #ccc;
 }
-.iso-features{background-color:#fff} 
+
+.iso-features {
+    background-color: #fff;
+    padding-top: 100px;
+}
 .iso-features .heading{padding:4vw 8vw;text-align:center}
 
 .iso-features .heading h1{color:#9D5DE0}

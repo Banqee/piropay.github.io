@@ -2435,13 +2435,15 @@ margin-bottom: 10px;
 .csteam-banner .left {
     background: url('https://res.cloudinary.com/piropay/image/upload/v1485203233/banner_wzb4q9.jpg') no-repeat center center;
     background-size: cover;
+	margin-top: 20px;
+	 width: 330px;
 }
 	
 	@media (max-width: 1599px) and (min-width: 1200px) {
 .csteam-banner .faq-search .input-field-container .input-field {
     width: 320px;
 		} }
-section.csteam-banner .faq-search .input-field-container .input-field {
+.csteam-banner .faq-search .input-field-container .input-field {
     color: #333;
     border: 1px solid #c4c4c4;
     padding: 10px;
@@ -2451,7 +2453,7 @@ section.csteam-banner .faq-search .input-field-container .input-field {
     font-size: 16px;
 }
 	]
-.csteam-banner .faq-search .input-field, section.csteam-banner .faq-search .searc-button {
+.csteam-banner .faq-search .input-field, .csteam-banner .faq-search .searc-button {
     border-radius: 30px;
     font-weight: 300;
     font-size: 15px;

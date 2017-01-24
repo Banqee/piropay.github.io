@@ -2474,17 +2474,17 @@ float: left;
     color: #FFF;
     line-height: 1.2;
     font-size: 2.3vw;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
 .home-vision-inverted .right .text h4 {
     font-size: 1.2vw;
-    margin-top: 15px;
+    margin-top: 6px;
 }
 	
 .home-vision-inverted .right .text p {
     font-size: 1.2vw;
-    margin-top: 15px;
+    margin-top: 6px;
 }
 
 .home-vision .right img {
@@ -2502,12 +2502,12 @@ float: left;
 
 .home-vision .left .text h4 {
     font-size: 1.2vw;
-    margin-top: 15px;
+    margin-top: 6px;
 }
 
 .home-vision .left .text p {
     font-size: 1.2vw;
-    margin-top: 15px;
+    margin-top: 6px;
 }
 
 .signup-form-full {

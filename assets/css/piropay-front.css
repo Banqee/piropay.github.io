@@ -1173,9 +1173,6 @@ html.locked-horizontal section.locked-horizontal .trial.tc{display:none}
     margin: 0 0% 0 0%;
 }
 
-		section.home-vision-inverted .left .text {
-    margin: 0 0% 0 0%;
-}
 	@media (max-width: 1599px) and (min-width: 1200px) and (min-width: 992px){
 section.features-video section.features-ab-right .right .stores img {
     width: 160px;

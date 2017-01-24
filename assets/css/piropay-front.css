@@ -2477,3 +2477,18 @@ float: left;
     font-size: 1.2vw;
     margin-top: 15px;
 }
+
+.home-vision .right img {
+    width: 95%;
+    margin: 50px 0 0 -5%;
+}
+
+.home-vision .left .text h4 {
+    font-size: 1.2vw;
+    margin-top: 15px;
+}
+
+.home-vision .left .text p {
+    font-size: 1.2vw;
+    margin-top: 15px;
+}

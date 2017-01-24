@@ -2520,6 +2520,27 @@ float: left;
     margin-top: 15px;
 }
 
+.right .text {
+    margin: 0 13% 0 8%;
+}
+
+.right .text h2 {
+    color: #FFF;
+    line-height: 1.9vw;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.right .text h4 {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.right .text p {
+    font-size: 1.2vw;
+    margin-top: 15px;
+}
+
 .text {
     margin-top: 20px;
 	margin-bottom: 20px;

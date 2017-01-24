@@ -2516,14 +2516,15 @@ float: left;
 }
 
 .home-vision .right img {
-    width: 95%;
-    margin: 50px 0 0 -5%;
+    width: 75%;
+    margin: -20px 0 0 15%;
 }
 
 .right img {
-    width: 95%;
-    margin: 50px 0 0 -5%;
+    width: 75%;
+    margin: -20px 0 0 15%;
 }
+
 
 .left .text {
     margin: 0 13% 0 8%;

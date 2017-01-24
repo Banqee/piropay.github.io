@@ -2445,7 +2445,7 @@ float: left;
 }
 
 	
-	.contact-full {
+.contact-full {
     padding-top: 10vw;
 		padding-bottom: 0vw;
     background-color: #fafafa;
@@ -2460,6 +2460,14 @@ float: left;
 
 .col-md-middle {
     vertical-align: middle;
+}
+
+.right .text {
+    margin: 0 8% 0 13%;
+}
+
+.home-vision-inverted .right .text {
+    margin: 0 8% 0 13%;
 }
 	
 .home-vision-inverted .right .text h2 {
@@ -2482,6 +2490,14 @@ float: left;
 .home-vision .right img {
     width: 95%;
     margin: 50px 0 0 -5%;
+}
+
+.left .text {
+    margin: 0 13% 0 8%;
+}
+
+.home-vision .left .text {
+    margin: 0 13% 0 8%;
 }
 
 .home-vision .left .text h4 {

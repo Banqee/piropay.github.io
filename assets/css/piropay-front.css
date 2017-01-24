@@ -632,7 +632,7 @@ nav.navbar ul.navbar-nav li {
    height:; 
     -webkit-transition: height 100ms ease-in-out;
     transition: height 100ms ease-in-out;
-    margin: 0 20px;
+    margin: 0 10px;
 	}}
 
 .locked-original-text .locked-cta button, .locked-menu .locked-cta button, .unlocked .locked-cta button {

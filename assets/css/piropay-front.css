@@ -436,11 +436,10 @@ nav.navbar ul.navbar-nav li {
     transform: translateX(-100%);
 	}}
 
-
-
 section {
-  padding: 100px 0;
+    overflow: hidden;
 }
+
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -467,6 +466,7 @@ display: block;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .home-iso-container {
     max-width: 1200px;
     margin: 0 auto;

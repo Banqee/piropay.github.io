@@ -2655,6 +2655,7 @@ float: left;
     margin-top: 1.475rem;
     margin-bottom: 1.475rem;
     position: relative;
+    width:110%;
 }
 
 .application-type-box {
@@ -2689,7 +2690,7 @@ float: left;
     margin-top: 1.475rem;
     margin-bottom: 1.475rem;
     position: relative;
-	width:108%;
+    width:110%;
 }
 
 .integration-method-type {
@@ -2718,6 +2719,7 @@ float: left;
     -o-justify-content: center;
     justify-content: center;
     -ms-flex-pack: center;
+	color: #444;
     background-color: #E8E8E8;
     border: 1px solid #E8E8E8;
     height: 9.125rem;
@@ -2725,7 +2727,7 @@ float: left;
     margin-top: 1.475rem;
     margin-bottom: 1.475rem;
     position: relative;
-		width:108%;
+		width:110%;
 }
 
 .default-content img[class^="image--logo"] {

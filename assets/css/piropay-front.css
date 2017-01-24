@@ -2420,3 +2420,11 @@ font-size: 14px;
 .copy:hover {
   color: #ccc;
 }
+
+	
+	.contact-full {
+    padding-top: 10vw;
+		padding-bottom: 0vw;
+    background-color: #fafafa;
+    color: #333;
+}

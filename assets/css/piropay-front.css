@@ -2492,3 +2492,9 @@ float: left;
     font-size: 1.2vw;
     margin-top: 15px;
 }
+
+.signup-form-full {
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}

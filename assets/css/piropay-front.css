@@ -2625,3 +2625,14 @@ float: left;
     height: 4.625rem;
     width: auto;
 }
+
+.info-icons {
+    font-size: 20px;
+    text-shadow: 0 1px 0 #fff;
+}
+ .fa-6 {
+    margin-right: .07142857em;
+}
+.jumbotron-icon .fa-6 {
+    font-size: 20em;
+}

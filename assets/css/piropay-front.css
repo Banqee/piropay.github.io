@@ -1909,6 +1909,10 @@ section.locked-original-text .locked-cta, section.locked-menu .locked-cta, secti
     width: 95%;
 }
 
+.home-vision-inverted .left img {
+    width: 105%;
+    margin: 50px -5% 0 0;
+}
 
 @media (max-width: 1599px) and (min-width: 1200px){
 html.locked-original-text section.locked-original-text h2, html.locked-original-text section.locked-menu h2, html.locked-original-text section.unlocked h2

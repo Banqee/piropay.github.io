@@ -5476,4 +5476,72 @@ p, .p {
 }
 
 
+.pricing-plan__wrap {
+    border-top: 1px solid #f3f3f4;
+}
 
+
+.pricing-plan__wrap {
+    border-radius: 4px;
+}
+.pricing-plan__wrap {
+    flex: 1;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e2e2e3;
+    background: #fff;
+}
+
+.pricing-plan__title {
+    line-height: 5.1rem;
+}
+
+.pricing-plan__title {
+    height: 10rem;
+    padding: 2.8rem;
+}
+.pricing-plan__title {
+    padding: 2rem 1.5rem;
+    margin: 0;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: left;
+    color: #9d5de0;
+    overflow: hidden;
+    background: #e8e8e9;
+    border-bottom: 1px solid #e2e2e3;
+}
+
+.pricing-plan__btn {
+    width: auto;
+    float: right;
+}
+
+.pricing-plan__btn {
+    font-size: 2rem;
+    padding: 1.6rem 5rem 1.4rem;
+}
+
+.btn {
+    display: inline-block;
+    user-select: none;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0;
+    border-radius: 3px;
+    background: #9d5de0;
+    transition: background-color .25s;
+}

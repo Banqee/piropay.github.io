@@ -984,36 +984,43 @@ color: #FFF;
 }
 
 .signup-form-half-pg button {
-	    padding: 0.5vw 0.9vw;
-	 color: #fcfcfc;
-	text-decoration: none;
-	font-size:18px;
+    padding: 0.9vw 0.9vw;
+    color: #fcfcfc;
+    text-decoration: none;
     background-color: #9d5de0!important;
     border: 1px solid #9D5DE0;
     border-radius: 50px!important;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
-margin-left:5px;
-	margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
 }
 
-.signup-form-half-pg-1 button a {
-	    padding: 0.5vw 0.9vw;
-	    color: #fcfcfc;
+.signup-form-half-pg button:hover {
+    color: #fdfdfd;
     text-decoration: none;
-	font-size:18px;
-    background-color: #9d5de0!important;
-    border: 0px solid #9D5DE0;
+   background-color: #a25ddc;
+   border: 1px solid #a25ddc;
     border-radius: 50px!important;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
 }
 
+.signup-form-half-pg-1 button a {
+	    color: #FFFFFF;
+    text-decoration: none;
+	font-size:16px;
+	   text-transform: uppercase;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
 .signup-form-half-pg-1 button a:hover {
-    color: #fcfcfc;
+    color: #fdfdfd;
     text-decoration: none;
    background-color: #a25ddc;
-   border: 0px solid #a25ddc;
+   border: 1px solid #a25ddc;
 }
 
 .signup-form-half-pg-1 button {
@@ -1021,7 +1028,7 @@ margin-left:5px;
     text-decoration: none;
     font-size: inherit;
     background-color: #9d5de0!important;
-    border: 0px solid #9D5DE0;
+    border: 1px solid #9D5DE0;
     border-radius: 50px!important;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
@@ -4166,6 +4173,71 @@ font-size: 14px;
     padding: 0.85em 0;
 }
 
+
+.row-md-height-fp {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.piropay_signup_form_inline {
+	display:inline-block;
+}
+
+.signup-form-half-pg button a {
+    color: #fff;
+    text-decoration: none!important;
+    padding: 0.5vw 0.9vw;
+}
+
+.signup-form-half-pg button a:hover {
+    color: #fcfcfc;
+    text-decoration: none;
+   background-color: #a25ddc;
+   border: 1px solid #a25ddc;
+}
+
+.signup-form-half-pg button {
+    padding: 0.9vw 0.9vw;
+    color: #fcfcfc;
+    text-decoration: none;
+    background-color: #9d5de0!important;
+    border: 1px solid #9D5DE0;
+    border-radius: 50px!important;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.signup-form-half-pg button:hover {
+    color: #fdfdfd;
+    text-decoration: none;
+   background-color: #a25ddc;
+   border: 1px solid #a25ddc;
+    border-radius: 50px!important;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.signup-form-half-pg-1 button a {
+	    color: #FFFFFF;
+    text-decoration: none;
+	font-size:16px;
+	   text-transform: uppercase;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.signup-form-half-pg-1 button a:hover {
+    color: #fdfdfd;
+    text-decoration: none;
+   background-color: #a25ddc;
+   border: 1px solid #a25ddc;
+}
 
 }
 	 

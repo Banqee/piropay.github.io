@@ -4138,6 +4138,7 @@ font-size: 14px;
     text-align: left;
     color: #fff;
     background: #262c37;
+	    display: inline-block;
 }
 	
 
@@ -4207,6 +4208,7 @@ font-size: 14px;
     text-align: left;
     color: #262c37;
     background: #FFF;
+	    display: inline-block;
 }
 	
 .pricing--tashi .pricing__item:nth-child(2) .pricing__title {

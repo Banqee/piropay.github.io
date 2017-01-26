@@ -175,6 +175,17 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
+.lead {
+    font-size: 21px;
+	font-weight:500;
+}
+
+p .lead {
+    font-size: 21px;
+	font-weight:500;
+}
+
 header {
   text-align: center;
    background-color: #FFFFFF;

@@ -2678,26 +2678,26 @@ font-size: 14px;
 	padding; 5px 0px 6px 0px;
 }
 	
-	@media (max-width: 1599px) and (min-width: 1200px)
+	
 @media (max-width: 1599px) and (min-width: 1200px) {
 .copy {
     margin: 0;
     font-size: 14px;
     text-align: left;
 float: left;
-	} }
+	}
+	
+.copy a {
+    color: #fff;
+    padding: 5px;
+	} 
+	}
 	
 .copy a {
   color: #fff;
   padding: 5px;
 }
 
-	
-@media (max-width: 1599px) and (min-width: 1200px) {
-.copy a {
-    color: #fff;
-    padding: 5px;
-	} }
 	
 .copy a:hover, .copy a:focus {
   color: #ccc;
@@ -3356,12 +3356,6 @@ margin-bottom: 10px;
     color: #333;
 }
 	
-@media (min-width: 992px)}
-.col-md-middle {
-    vertical-align: middle;
-	}	
-}
-
 .col-md-middle {
     vertical-align: middle;
 }
@@ -3721,7 +3715,7 @@ section.locked-original-text .locked-cta, section.locked-menu .locked-cta, secti
 .locked-cta h1 {
 	
     font-size: 2.5em;
-    margin-top: 100px;
+    margin-top: 150px;
 	}
 
 .contact-us .left {

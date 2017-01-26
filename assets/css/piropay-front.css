@@ -4268,7 +4268,7 @@ font-size: 14px;
     transition: all 0.1s ease-in-out;
     background-color: white;
     border: 1px solid #9D5DE0;
-    border-radius: 25px;
+    border-radius: 50px;
     font-size: 16px;
     padding: 1.0vw 2.1vw;
     color: #9D5DE0;
@@ -4280,7 +4280,10 @@ font-size: 14px;
 .iso-features .box-btn button:hover {
     background-color: #bc7bff;
     border-color: #bc7bff;
-    color: grey;
+    color: #fdfdfd;
+    font-size: 16px;
+    padding: 1.0vw 2.1vw;
+    border-radius: 50px!important;
 }
 
 .box-btn button {
@@ -4295,26 +4298,17 @@ font-size: 14px;
 
 .iso-features .box-btn button {
     background-color: white;
-   border: 1px solid #9D5DE0;
+    border: 1px solid #9D5DE0;
     color: #9d5de0;
     font-size: 16px;
     padding: 1.0vw 2.1vw;
-    border-radius: 25px;
+    border-radius: 50px!important;
 }
 
 .box-btn button:hover {
     background-color: #bc7bff;
-    border-color: #9D5DE0;
-    color: white;
-}
-
-.box-btn button:hover {
-    background-color: #bc7bff;
-    border-color: #9D5DE0;
-    color: white;
-    border-radius: 25px;
-    font-size: 16px;
-    padding: 0.9vw 0.9vw;
+    border-color:#bc7bff;
+    color: #fdfdfd;
 }
 
 }

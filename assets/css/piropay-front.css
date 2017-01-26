@@ -5076,6 +5076,59 @@ nav.navbar ul.navbar-nav li a.signup {
     color: #fff;
 }
 
+.pricing-plan__features {
+    padding: 0.5rem 2.5rem 3rem;
+    text-align: left;
+    overflow: hidden;
+    background: #fff;
+}
+
+.pricing-plan__features .feature-list:nth-child(odd) {
+    margin-right: 3%;
+}
+.pricing-plan__features .feature-list:nth-child(even) {
+    margin-left: 3%;
+}
+.pricing-plan__features .feature-list {
+    margin: 1.5rem 0 0;
+    width: 47%;
+    float: left;
+}
+
+.pricing-plan__features dt {
+    position: relative;
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.pricing-plan__features dd {
+    margin: 0 0 1.5rem;
+    font-family: "proxima-nova-condensed","Helvetica Neue",Helvetica,arial,sans-serif;
+}
+
+dl dt, dl dd {
+    line-height: 2.2rem;
+}
+
+.pricing-plan__features dt {
+    position: relative;
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.pricing-plan__features ul {
+    list-style: none;
+    padding: 0;
+}
+.pricing-plan__features li {
+    margin-bottom: 1.5rem;
+}
+.pricing-plan__features .feature-list p {
+    margin-top: 0;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
 .pricing-plan__details {
     padding: 3.6rem 0 1rem;
     min-height: 19rem;
@@ -5267,3 +5320,14 @@ p {
     padding-bottom: 12.5rem;
 	}}
 
+
+.pricing-plan__img--pro-services {
+    background: url(/img2/pricing/pro-services.png) center 4px no-repeat;
+}
+.pricing-plan__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.5rem;
+    height: 5.5rem;
+}

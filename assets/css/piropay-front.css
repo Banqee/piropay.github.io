@@ -5002,6 +5002,7 @@ nav.navbar ul.navbar-nav li a:active.signup{
 }
 
 @media (min-width: 768px) {
+	
 nav.navbar ul.navbar-nav li a.signup {
     border: 0px solid #40C870;
     color: #40C870;
@@ -5009,7 +5010,27 @@ nav.navbar ul.navbar-nav li a.signup {
     padding-right: 20px;
     margin-right: 10px;
     border-radius: 50px;
-	}}
+	}
+
+nav.navbar ul.navbar-nav li.signup a:hover {
+    background-color: transparent;
+    color: #40C870;
+}
+
+	
+.navbar-default .navbar-nav>li>a:hover .signup, .navbar-default .navbar-nav>li>a:focus .signup {
+    color: #40C870;
+    background-color: transparent;
+}
+
+nav.navbar ul.navbar-nav li a:hover.signup,
+nav.navbar ul.navbar-nav li a:focus.signup,
+nav.navbar ul.navbar-nav li a:active.signup{
+    border: 0px solid #40C870;
+	color: #40C870;
+}
+
+}
 
 nav.navbar ul.navbar-nav li a.signup {
     border: 0px solid #40C870;

@@ -5126,7 +5126,7 @@ dl dt, dl dd {
 .pricing-plan__features .feature-list p {
     margin-top: 0;
     font-size: 14px;
-    line-height: 218px;
+    line-height: 14px;
 }
 
 .pricing-plan__details {

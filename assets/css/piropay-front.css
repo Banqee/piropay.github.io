@@ -5046,6 +5046,25 @@ nav.navbar ul.navbar-nav li a:active.signup{
 
 }
 
+@media (min-width: 992px){
+.pricing-plan {
+    display: flex;
+    max-width: none;
+}
+}
+@media (min-width: 480px){
+.pricing-plan {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.pricing-plan {
+    position: relative;
+    margin-top: -29rem;
+    text-align: center;
+}
+
 nav.navbar ul.navbar-nav li a.signup {
     border: 0px solid #40C870;
     color: #40C870;
@@ -5212,4 +5231,14 @@ p {
     font-weight: 600;
 }
 
+.segment--plans {
+    padding-top: 0;
+    background: #f3f3f4;
+}
+
+@media (min-width: 768px){
+.segment, .content-group {
+	
+    padding-bottom: 12.5rem;
+	}}
 

@@ -5125,13 +5125,13 @@ dl dt, dl dd {
 }
 .pricing-plan__features .feature-list p {
     margin-top: 0;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .pricing-plan__details {
     padding: 1.1rem;
- font-size: 14px;
+ font-size: 15px;
     min-height: 8rem;
     background: #f8f8f9;
 }

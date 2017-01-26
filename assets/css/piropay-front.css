@@ -5546,8 +5546,20 @@ p, .p {
     transition: background-color .25s;
 }
 
-.pricing-plan__btn  {
+
+.iso-features .pricing-plan__btn  {
     border: 2px solid #333333;
     margin-left: 20px;
     border-radius: 50px;
+}
+
+
+
+.iso-features .pricing-plan__btn button:hover {
+    background-color: #bc7bff;
+    border-color: #bc7bff;
+    color: #fdfdfd;
+    font-size: 16px;
+    padding: 0.9vw 2.1vw;
+    border-radius: 50px!important;
 }

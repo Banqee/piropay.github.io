@@ -322,6 +322,7 @@ nav.navbar ul.navbar-nav li a:focus.login,
 nav.navbar ul.navbar-nav li a:active.login{
     border: 2px solid #9D5DE0;
 	color: #9D5DE0;
+	border-radius:50%;
 }
 
 
@@ -329,6 +330,7 @@ nav.navbar ul.navbar-nav li a:active.login{
 nav.navbar ul.navbar-nav li a:hover.login {
     border: 2px solid #9D5DE0;
 	color: #9D5DE0;
+	border-radius:50%;
 	}}
 
 .navbar-custom .navbar-nav li.active a:hover.login,
@@ -337,6 +339,7 @@ nav.navbar ul.navbar-nav li a:hover.login {
   color: #9D5DE0;
   background: transparent;
 	    border: 2px solid #9D5DE0;
+	border-radius:50%;
 }
 
 .navbar-default .navbar-toggle .icon-bar:hover, .navbar-default .navbar-toggle .icon-bar:focus,.navbar-default .navbar-toggle .icon-bar:active {
@@ -4966,4 +4969,22 @@ section.locked-original-text a .locked-cta button a, section.locked-menu .locked
 
 section.locked-original-text a:hover .locked-cta button a:hover, section.locked-menu .locked-cta button a:hover {
 	color: #fdfdfd;
+}
+
+nav.navbar ul.navbar-nav li.signup a:hover {
+    background-color: transparent;
+    color: #40C870;
+}
+
+	
+.navbar-default .navbar-nav>li.signup>a:hover, .navbar-default .navbar-nav>li.signup>a:focus {
+    color: #40C870;
+    background-color: transparent;
+}
+
+nav.navbar ul.navbar-nav li.signup a:hover.login
+nav.navbar ul.navbar-nav li.signup a:focus.login,
+nav.navbar ul.navbar-nav li.signup a:active.login{
+    border: 2px solid #40C870;
+	color: #40C870;
 }

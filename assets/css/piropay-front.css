@@ -5331,3 +5331,35 @@ p {
     width: 5.5rem;
     height: 5.5rem;
 }
+
+.pricing-plan__list p {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+p, .p {
+    margin: 1.5rem 0;
+}
+
+.pricing-plan__list h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+    color: #545457;
+    font-weight: 600;
+}
+.pricing-plan__list li {
+    position: relative;
+    padding-left: 8rem;
+    margin-bottom: 4rem;
+}
+
+.pricing-plan__features {
+    padding: 0.5rem 2.5rem 3rem;
+    text-align: left;
+    overflow: hidden;
+    background: #fff;
+}
+.pricing-plan__features ul {
+    list-style: none;
+    padding: 0;
+}

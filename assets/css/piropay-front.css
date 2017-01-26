@@ -4239,6 +4239,53 @@ font-size: 14px;
    border: 1px solid #a25ddc;
 }
 
+
+.iso-features .box-btn {
+    padding: 2vw 0;
+}
+
+.iso-features .box-btn button:hover {
+    background-color: #bc7bff;
+    border-color: #9D5DE0;
+    color: white;
+    font-size: 16px;
+    padding: 0.9vw 3vw;
+}
+
+.box-btn button {
+    background-color: white;
+   border: 1px solid #9D5DE0;
+    color: #9d5de0;
+    font-size: 16px;
+    padding: 0.9vw 0.9vw;
+    border-radius: 25px;
+}
+
+
+.iso-features .box-btn button {
+    background-color: white;
+   border: 1px solid #9D5DE0;
+    color: #9d5de0;
+    font-size: 16px;
+    padding: 0.9vw 0.9vw;
+    border-radius: 25px;
+}
+
+.box-btn button:hover {
+    background-color: #bc7bff;
+    border-color: #9D5DE0;
+    color: white;
+}
+
+.box-btn button:hover {
+    background-color: #bc7bff;
+    border-color: #9D5DE0;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 0.9vw 0.9vw;
+}
+
 }
 	 
 	 

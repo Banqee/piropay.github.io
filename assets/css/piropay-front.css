@@ -4270,7 +4270,7 @@ font-size: 14px;
     border: 1px solid #9D5DE0;
     border-radius: 25px;
     font-size: 16px;
-    padding: 0.9vw 3vw;
+    padding: 1.0vw 2.1vw;
     color: #9D5DE0;
     outline: 0;
     font-weight: 300;
@@ -4279,10 +4279,8 @@ font-size: 14px;
 
 .iso-features .box-btn button:hover {
     background-color: #bc7bff;
-    border-color: #9D5DE0;
-    color: white;
-    font-size: 16px;
-    padding: 0.9vw 3vw;
+    border-color: #bc7bff;
+    color: grey;
 }
 
 .box-btn button {
@@ -4290,7 +4288,7 @@ font-size: 14px;
    border: 1px solid #9D5DE0;
     color: #9d5de0;
     font-size: 16px;
-    padding: 0.9vw 0.9vw;
+    padding: 0.9vw 3vw;
     border-radius: 25px;
 }
 
@@ -4300,7 +4298,7 @@ font-size: 14px;
    border: 1px solid #9D5DE0;
     color: #9d5de0;
     font-size: 16px;
-    padding: 0.9vw 0.9vw;
+    padding: 1.0vw 2.1vw;
     border-radius: 25px;
 }
 

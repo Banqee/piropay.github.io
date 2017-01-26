@@ -4960,4 +4960,10 @@ div.signup-tooltip button {
     perspective: 1000px
 }
 
-	 
+section.locked-original-text a .locked-cta button a, section.locked-menu .locked-cta button a {
+	color: #ffffff;
+}
+
+section.locked-original-text a:hover .locked-cta button a:hover, section.locked-menu .locked-cta button a:hover {
+	color: #fdfdfd;
+}

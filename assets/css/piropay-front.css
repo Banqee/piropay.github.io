@@ -5401,6 +5401,17 @@ p, .p {
 }
 
 
+.pricing-plan__btn {
+    width: auto;
+    float: right;
+    display: block;
+    margin: 0 auto;
+    max-width: 30rem;
+    line-height: 1em;	
+    font-size: 2rem;
+    padding: 1.6rem 5rem 1.4rem;
+	}
+
 @media (min-width: 992px) {
 .pricing-plan__btn {
     width: auto;

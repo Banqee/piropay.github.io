@@ -5076,6 +5076,24 @@ nav.navbar ul.navbar-nav li a.signup {
     color: #fff;
 }
 
+@media (min-width: 480px) [
+.pricing-plan__tab--smallbusiness {
+    border-radius: 0.4rem 0.4rem 0 0;
+} }
+.pricing-plan__tab--smallbusiness {
+    margin-right: 1%;
+    border-radius: 0 0.4rem 0 0;
+}
+.pricing-plan__tab {
+    width: 49%;
+    padding: 1.3rem 0;
+    float: left;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background: #e8e8e8;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
 
 @media (min-width: 768px){
 .pricing-plan__title {
@@ -5129,6 +5147,7 @@ nav.navbar ul.navbar-nav li a.signup {
 .pricing-plan__cell--enterprise {
     padding-left: 15px;
 	}}
+
 @media (min-width: 992px){
 .pricing-plan__cell {
     position: relative;

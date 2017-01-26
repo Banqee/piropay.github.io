@@ -5563,3 +5563,26 @@ p, .p {
     padding: 0.9vw 2.1vw;
     border-radius: 50px!important;
 }
+
+
+.iso-features .pricing-plan__list h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+    color: #545457;
+font-weight: 600;
+}
+
+.iso-features .pricing-plan__list p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.pricing-plan__list p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.pricing-plan__list h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+    color: #545457;
+font-weight: 600;
+}

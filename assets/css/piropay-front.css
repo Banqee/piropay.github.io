@@ -5019,3 +5019,7 @@ nav.navbar ul.navbar-nav li a.signup {
     margin-right: 10px;
     border-radius: 50px;
 	}
+.signup-form-half button a {
+    font-size: 16px;
+    color: #fff;
+}

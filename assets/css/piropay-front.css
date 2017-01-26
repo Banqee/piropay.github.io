@@ -5371,3 +5371,25 @@ p, .p {
     padding-left: 15px;
 }
 
+@media (min-width: 1200px) {
+.pricing-plan__cell--smallbusiness {
+    margin-left: -15px;
+    padding-right: 30px;
+	} }
+
+
+@media (min-width: 992px){
+.pricing-plan__cell {
+    position: relative;
+    flex: 1;
+    display: flex;
+    margin: 0 0 4.5rem;
+    max-width: none;
+}
+}
+@media (min-width: 992px){
+.pricing-plan__cell {
+    float: left;
+    width: 50%;
+}
+}

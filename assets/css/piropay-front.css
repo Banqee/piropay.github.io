@@ -3736,11 +3736,11 @@ margin-right: .07142857em;
 }
 
 section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta, section.locked-original-text .locked-cta, section.locked-menu .locked-cta, section.unlocked .locked-cta, xt-menu section.locked-original-text .locked-cta {
-    margin: 60px auto 0;
+    margin: 10px auto 0;
     text-align: center;
     width: 100%;
 }
-section.locked-original-text .locked-cta .board_example,section.locked-menu .locked-cta .board_example,section.unlocked .locked-cta .board_example,section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example, section.unlocked .locked-cta .board_example{opacity:0;-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;margin-top:36px;max-width:100%}
+section.locked-original-text .locked-cta .board_example,section.locked-menu .locked-cta .board_example,section.unlocked .locked-cta .board_example,section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example, section.unlocked .locked-cta .board_example{opacity:0;-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;margin-top:10px;max-width:100%}
 
 .locked-cta h1 {
     font-size: 2.5em;

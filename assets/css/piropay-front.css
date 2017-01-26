@@ -3350,6 +3350,18 @@ margin-bottom: 10px;
 
 }
 
+
+
+ @media (max-width: 1599px){ 
+	 section.locked-original-text .locked-cta .board_example,section.locked-menu .locked-cta .board_example,section.unlocked .locked-cta .board_example,section.locked-original-text .locked-cta .board_example,html.locked-original-text-menu section.locked-menu .locked-cta .board_example,html.locked-original-text-menu section.unlocked .locked-cta .board_example,html.locked-menu section.locked-original-text .locked-cta .board_example,html.locked-menu section.locked-menu .locked-cta .board_example,html.locked-menu section.unlocked .locked-cta .board_example,html.unlocked section.locked-original-text .locked-cta .board_example,html.unlocked section.locked-menu .locked-cta .board_example, section.unlocked .locked-cta .board_example{opacity:0;-webkit-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;margin-top:36px;max-width:100%}
+
+.locked-cta h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+	    padding-top: 100px;
+		}
+}
+
  @media (min-width: 1200px) and (max-width: 1599px){
 	 
 .copy a {
@@ -3732,7 +3744,7 @@ section.locked-original-text .locked-cta .board_example,section.locked-menu .loc
 
 .locked-cta h1 {
     font-size: 2.5em;
-    margin-top: 60px;
+    margin-top: 20px;
 	    padding-top: 80px;
 		}
 

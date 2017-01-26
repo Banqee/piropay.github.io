@@ -314,7 +314,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li.login {
     border: 2px solid #333333;
-border-radius:50%;
+border-radius:50px;
 }
 
 nav.navbar ul.navbar-nav li a:hover.login
@@ -322,7 +322,7 @@ nav.navbar ul.navbar-nav li a:focus.login,
 nav.navbar ul.navbar-nav li a:active.login{
     border: 2px solid #9D5DE0;
 	color: #9D5DE0;
-	border-radius:35px;
+	border-radius:50px;
 }
 
 
@@ -330,7 +330,7 @@ nav.navbar ul.navbar-nav li a:active.login{
 nav.navbar ul.navbar-nav li a:hover.login {
     border: 2px solid #9D5DE0;
 	color: #9D5DE0;
-	border-radius:35px;
+	border-radius:50px;
 	}}
 
 .navbar-custom .navbar-nav li.active a:hover.login,
@@ -339,7 +339,7 @@ nav.navbar ul.navbar-nav li a:hover.login {
   color: #9D5DE0;
   background: transparent;
 	    border: 2px solid #9D5DE0;
-	border-radius:35px;
+	border-radius:50px;
 }
 
 .navbar-default .navbar-toggle .icon-bar:hover, .navbar-default .navbar-toggle .icon-bar:focus,.navbar-default .navbar-toggle .icon-bar:active {
@@ -368,7 +368,7 @@ nav.navbar ul.navbar-nav li a:hover.login {
 	
 .navbar-custom .navbar-nav li a.login {
     border: 2px solid #333333;
-	border-radius: 50%;
+	border-radius: 50px;
 }
 	
 	@media (min-width: 768px){

@@ -4983,7 +4983,7 @@ section.locked-original-text a:hover .locked-cta button a:hover, section.locked-
 	color: #fdfdfd;
 }
 
-nav.navbar ul.navbar-nav li .signup a:hover {
+nav.navbar ul.navbar-nav li.signup a:hover {
     background-color: transparent;
     color: #40C870;
 }
@@ -5000,3 +5000,22 @@ nav.navbar ul.navbar-nav li a:active.signup{
     border: 0px solid #40C870;
 	color: #40C870;
 }
+
+@media (min-width: 768px) {
+nav.navbar ul.navbar-nav li a.signup {
+    border: 0px solid #40C870;
+    color: #40C870;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-radius: 50px;
+	}}
+
+nav.navbar ul.navbar-nav li a.signup {
+    border: 0px solid #40C870;
+    color: #40C870;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-radius: 50px;
+	}

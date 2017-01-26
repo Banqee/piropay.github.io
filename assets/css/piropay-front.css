@@ -5466,5 +5466,14 @@ p, .p {
     font-weight: 300;
 }
 
+.pricing-plan:after {
+    clear: both;
+}
+
+.pricing-plan:before, .pricing-plan:after {
+    content: " ";
+    display: table;
+}
+
 
 

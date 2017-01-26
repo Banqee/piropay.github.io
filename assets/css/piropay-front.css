@@ -5586,3 +5586,27 @@ font-weight: 600;
     color: #545457;
 font-weight: 600;
 }
+
+.pricing-plan__features li h3 {
+ margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+    color: #545457;
+font-weight: 600;
+}
+
+.pricing-plan__features h3 {
+ margin-bottom: 0.5rem;
+    font-size: 1.9rem;
+    color: #545457;
+font-weight: 600;
+}
+
+.pricing-plan__features p {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+}
+
+.pricing-plan__features li p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}

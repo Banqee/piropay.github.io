@@ -5545,3 +5545,9 @@ p, .p {
     background: #9d5de0;
     transition: background-color .25s;
 }
+
+.pricing-plan__btn  {
+    border: 2px solid #333333;
+    margin-left: 20px;
+    border-radius: 50px;
+}

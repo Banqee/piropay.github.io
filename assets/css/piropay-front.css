@@ -1018,21 +1018,24 @@ color: #FFF;
 
 .signup-form-half-pg-1 button a:hover {
     color: #fdfdfd;
+	opacity: 7;
     text-decoration: none;
    background-color: #a25ddc;
    border: 1px solid #a25ddc;
-}
-
-.signup-form-half-pg-1 button {
-    padding: 0.9vw 0.2vw;
-    text-decoration: none;
-    font-size: inherit;
-    background-color: #9d5de0!important;
-    border: 1px solid #9D5DE0;
-    border-radius: 50px!important;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
 }
+
+.signup-form-half-pg-1 button {
+    padding: 0.9vw 0.9vw;
+    text-decoration: none;
+    font-size: inherit;
+    text-transform: uppercase;
+    background-color: #9d5de0!important;
+    border: 1px solid #9D5DE0;
+    border-radius: 50px!important;
+}
+
 
 .piropay_signup_form_pg .tc {
 margin-top: 30px;
@@ -4187,22 +4190,12 @@ font-size: 14px;
 	display:inline-block;
 }
 
-.signup-form-half-pg button a {
-    color: #fff;
-    text-decoration: none!important;
-    padding: 0.5vw 0.9vw;
-}
-
-.signup-form-half-pg button a:hover {
-    color: #fcfcfc;
-    text-decoration: none;
-   background-color: #a25ddc;
-   border: 1px solid #a25ddc;
-}
 
 .signup-form-half-pg button {
     padding: 0.9vw 0.9vw;
-    color: #fcfcfc;
+    color: #ffffff;
+		font-size:16px;
+	   text-transform: uppercase;
     text-decoration: none;
     background-color: #9d5de0!important;
     border: 1px solid #9D5DE0;
@@ -4214,12 +4207,24 @@ font-size: 14px;
     text-transform: uppercase;
 }
 
+.signup-form-half-pg button a {
+    color: #fff;
+    text-decoration: none!important;
+}
+
+.signup-form-half-pg button a:hover {
+    color: #fcfcfc;
+    text-decoration: none;
+   background-color: #a25ddc;
+   border: 1px solid #a25ddc;
+}
+
 .signup-form-half-pg button:hover {
     color: #fdfdfd;
     text-decoration: none;
    background-color: #a25ddc;
    border: 1px solid #a25ddc;
-    border-radius: 50px!important;
+	opacity: 6;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
 }
@@ -4227,17 +4232,30 @@ font-size: 14px;
 .signup-form-half-pg-1 button a {
 	    color: #FFFFFF;
     text-decoration: none;
-	font-size:16px;
-	   text-transform: uppercase;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
 }
 
 .signup-form-half-pg-1 button a:hover {
     color: #fdfdfd;
+	opacity: 7;
     text-decoration: none;
    background-color: #a25ddc;
    border: 1px solid #a25ddc;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.signup-form-half-pg-1 button {
+    padding: 0.9vw 0.9vw;
+    text-decoration: none;
+    font-size: inherit;
+		font-size:16px;
+	   text-transform: uppercase;
+    text-transform: uppercase;
+    background-color: #9d5de0!important;
+    border: 1px solid #9D5DE0;
+    border-radius: 50px!important;
 }
 
 

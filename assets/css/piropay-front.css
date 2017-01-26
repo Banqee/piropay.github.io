@@ -4240,10 +4240,10 @@ font-size: 14px;
 
 .signup-form-half-pg-1 button a:hover {
     color: #fdfdfd;
-	opacity: 7;
+	opacity: 5;
     text-decoration: none;
    background-color: #a25ddc;
-   border: 1px solid #a25ddc;
+   border: 0px solid #a25ddc;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
 }

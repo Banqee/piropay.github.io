@@ -5394,3 +5394,32 @@ p, .p {
     width: 50%;
 }
 }
+
+.pricing-plan__cell--enterprise {
+    margin-right: -15px;
+    padding-left: 30px;
+}
+
+
+@media (min-width: 992px) {
+.pricing-plan__btn {
+    width: auto;
+    float: right;
+	}
+}
+@media (min-width: 1200px){
+.pricing-plan__btn {
+    font-size: 2rem;
+    padding: 1.6rem 5rem 1.4rem;
+}
+}
+@media (min-width: 480px){
+.pricing-plan__btn {
+    max-width: 30rem;
+    line-height: 1em;
+	}
+}
+.pricing-plan__btn {
+    display: block;
+    margin: 0 auto;
+}

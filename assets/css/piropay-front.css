@@ -1931,11 +1931,12 @@ fieldset[disabled] .btn-success.active {
     background-color: white;
     border: 1px solid #9D5DE0;
     border-radius: 25px;
-	font-size: 18px;
+    font-size: 16px;
     padding: 0.9vw 3vw;
     color: #9D5DE0;
     outline: 0;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .iso-features .box-btn button:hover{background-color:#bc7bff;border-color:#9D5DE0;color:white;	font-size: 18px;
@@ -4242,6 +4243,20 @@ font-size: 14px;
 
 .iso-features .box-btn {
     padding: 2vw 0;
+}
+
+.iso-features .box-btn button {
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    background-color: white;
+    border: 1px solid #9D5DE0;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 0.9vw 3vw;
+    color: #9D5DE0;
+    outline: 0;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .iso-features .box-btn button:hover {

@@ -675,15 +675,16 @@ nav.navbar ul.navbar-nav li {
 }
 
 .signup-form-half button {
-    padding: 8px 15px;
+      padding: 1.3vw 1.1vw;
+	    font-size: 14px;
     color: #fff;
     background-color: #9d5de0!important;
-    border-color: #0098B4;
-    border-style: solid;
-    border-width: 0 0 2px 0;
+    border-color:#9d5de0;
+    border-style: 2px solid #9d5de0;
+	border-radius: 50px;
     -webkit-transition: background-color 0.1s ease-in-out;
     transition: background-color 0.1s ease-in-out;
-	    margin-top: 22px;
+     margin-top: 20px;
 }
 
 @media (min-width: 768px){

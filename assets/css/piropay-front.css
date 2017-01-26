@@ -5363,3 +5363,11 @@ p, .p {
     list-style: none;
     padding: 0;
 }
+
+.pricing-plan__cell {
+    float: left;
+    width: 50%;
+    min-height: 1px;
+    padding-left: 15px;
+}
+

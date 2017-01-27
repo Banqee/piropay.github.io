@@ -5107,13 +5107,7 @@ nav.navbar ul.navbar-nav li a.signup {
 }
 
 dl dt, dl dd {
-    line-height: 2.2rem;
-}
-
-.pricing-plan__features dt {
-    position: relative;
-    margin-bottom: 0.2rem;
-    font-weight: 600;
+    line-height: 1.8rem;
 }
 
 .pricing-plan__features ul {
@@ -5121,7 +5115,7 @@ dl dt, dl dd {
     padding: 0;
 }
 .pricing-plan__features li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 .pricing-plan__features .feature-list p {
     margin-top: 0;

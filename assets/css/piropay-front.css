@@ -299,6 +299,7 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-nav li a {
     font-size: 15px;
+   line-height: 16px;
     color: black;
     -webkit-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;

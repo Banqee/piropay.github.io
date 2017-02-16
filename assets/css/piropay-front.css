@@ -3732,6 +3732,14 @@ font-size: 14px;
 	color: #000;
 }
 
+@media screen and (min-width: 66.25em){
+
+.pricing--pema .pricing__item--featured {
+    z-index: 10;
+    margin: 0;
+    font-size: 1.15em;
+	} }
+
 /* Header */
 .codrops-header {
 	padding: 2em 1em 4em;

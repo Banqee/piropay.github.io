@@ -12,7 +12,7 @@
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css  */
 
 @media (min-width: 992px)
-{.desktop-section-height{height:35vw !important}}
+{.desktop-section-height{height:37vw !important}}
 @media (max-width: 991px)
 {.mobile-section-height{height:62vw !important}}
 
@@ -2121,7 +2121,7 @@ margin-bottom: 10px;
 }
 	@media (min-width: 992px){
 .desktop-section-height {
-    padding-top: 10px;
+    padding-top: 1px;
     height: 25vw;
 	}}
 .bg-8 {

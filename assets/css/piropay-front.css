@@ -5617,7 +5617,6 @@ font-weight: 600;
 }}
 
 @media (min-width: 992px){
-main-7658016….css:1
 .pricing-plan__wrap {
     border-radius: 4px;
 	}}
@@ -5632,3 +5631,8 @@ main-7658016….css:1
     border-radius: 0 0 4px 4px;
     background: #fff;
 }
+@media (min-width: 1200px){
+.pricing-plan__cell--smallbusiness {
+    margin-left: -15px;
+    padding-right: 30px;
+	}}

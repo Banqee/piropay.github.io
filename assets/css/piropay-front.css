@@ -5107,20 +5107,21 @@ nav.navbar ul.navbar-nav li a.signup {
 
 nav.navbar ul.navbar-nav li.signup a:hover {
     background-color: transparent;
-    color: #40C870;
+    color: #53d681;
 }
 
 	
 .navbar-default .navbar-nav>li>a:hover .signup, .navbar-default .navbar-nav>li>a:focus .signup {
-    color: #40C870;
+    color: #53d681;
     background-color: transparent;
+	
 }
 
 nav.navbar ul.navbar-nav li a:hover.signup,
 nav.navbar ul.navbar-nav li a:focus.signup,
 nav.navbar ul.navbar-nav li a:active.signup {
-    border: 0px solid #40C870;
-color: #40C870;
+    border: 0px solid #53d681;
+color: #53d681;
 }
 
 nav.navbar ul.navbar-nav li a:hover:after.signup,
@@ -5132,7 +5133,7 @@ nav.navbar ul.navbar-nav li a:active:after.signup {
     right: 0;
     left: 0;
     height: 4px;
-    background-color: #40C870;
+    background-color: #53d681;
     -webkit-transition: background-color 100ms ease-in-out;
     transition: background-color 100ms ease-in-out;
 }

@@ -697,7 +697,7 @@ nav.navbar ul.navbar-nav li a:hover {
 
 nav.navbar ul.navbar-nav li a:hover.signup {
     background-color: transparent;
-    border-bottom: 2px solid #40C870;
+    border-bottom: 0px solid #40C870;
     color: #40C870;
 }
 		
@@ -778,7 +778,7 @@ nav.navbar ul.navbar-nav li a:hover:after {
     right: 0;
     left: 0;
     height: 4px;
-    background-color: #9d5de0;
+    background-color: transparent;
     -webkit-transition: background-color 100ms ease-in-out;
     transition: background-color 100ms ease-in-out;
 }

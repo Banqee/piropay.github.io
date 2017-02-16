@@ -4392,8 +4392,8 @@ font-size: 14px;
 
 /* Pema */
 .pricing--pema .pricing__item {
-	font-family: inherit;
-	padding: 2em 3em;
+    font-family: inherit;
+    padding: 3.75em;
 	margin: 1em;
 	color: #9D5DE0;
 	background: #fff;

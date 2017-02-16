@@ -3150,7 +3150,7 @@ margin-right: .07142857em;
 
 
 .contact-us .right {
-    background-color: #f1f1f1;
+    background-color: transparent;
 }
 
 
@@ -3853,9 +3853,6 @@ section.locked-original-text .locked-cta button, section.locked-menu .locked-cta
 }
 
 
-.contact-us .right {
-    background-color: #f1f1f1;
-}
 
 .contact-us .right form#contact_us_form {
     width: 70%;

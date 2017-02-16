@@ -3400,9 +3400,10 @@ margin-bottom: 10px;
 
 .legal a {
     color: #fff;
-margin-top: 10px;
-    padding-left: 5px;
-	   padding-right: 5px;
+margin-top: 5px;
+    padding-left: 1px;
+	   padding-right: 10px;
+	font-size: 12px;
 	} 
 	
 .legal a:hover, .legal a:focus {

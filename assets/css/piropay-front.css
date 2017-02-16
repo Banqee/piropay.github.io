@@ -693,7 +693,15 @@ section.iso-high-board .text h1 {
 nav.navbar ul.navbar-nav li a:hover {
     background-color: transparent;
     color: #9D5DE0;
-	}}
+	}
+
+nav.navbar ul.navbar-nav li a:hover.signup {
+    background-color: transparent;
+    border-bottom: 2px solid #40C870;
+    color: #40C870;
+}
+		
+}
 
 @media (min-width: 768px){
 nav.navbar ul.navbar-nav li {
@@ -5095,7 +5103,6 @@ nav.navbar ul.navbar-nav li a.signup {
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 10px;
-    border-radius: 50px;
 	}
 
 nav.navbar ul.navbar-nav li.signup a:hover {
@@ -5111,11 +5118,25 @@ nav.navbar ul.navbar-nav li.signup a:hover {
 
 nav.navbar ul.navbar-nav li a:hover.signup,
 nav.navbar ul.navbar-nav li a:focus.signup,
-nav.navbar ul.navbar-nav li a:active.signup{
+nav.navbar ul.navbar-nav li a:active.signup {
     border: 0px solid #40C870;
-	color: #40C870;
+color: #40C870;
 }
 
+nav.navbar ul.navbar-nav li a:hover:after.signup,
+nav.navbar ul.navbar-nav li a:focus:after.signup,
+nav.navbar ul.navbar-nav li a:active:after.signup {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background-color: #40C870;
+    -webkit-transition: background-color 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out;
+}
+	
 }
 
 @media (min-width: 992px){
@@ -5125,6 +5146,13 @@ nav.navbar ul.navbar-nav li a:active.signup{
 }
 }
 @media (min-width: 480px){
+	
+
+.signup-form-half button a {
+    font-size: 16px;
+    color: #fff;
+}
+
 .pricing-plan {
     max-width: 500px;
     margin-left: auto;
@@ -5136,18 +5164,6 @@ nav.navbar ul.navbar-nav li a:active.signup{
     margin-top: 0rem;
     text-align: center;
 }
-
-nav.navbar ul.navbar-nav li a.signup {
-    border: 0px solid #40C870;
-    color: #40C870;
-    margin-right: 10px;
-    border-radius: 50px;
-	}
-.signup-form-half button a {
-    font-size: 16px;
-    color: #fff;
-}
-
 .pricing-plan__features {
     padding: 0.5rem 2.5rem 3rem;
     text-align: left;

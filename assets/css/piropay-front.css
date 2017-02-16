@@ -4471,8 +4471,8 @@ font-size: 14px;
 
 .pricing--pema .pricing__sentence {
 	font-weight: bold;
-	margin: 0 0 1em 0;
-	padding: 0 0 0.5em;
+	margin: 0 0 0.1em 0;
+	padding: 0 0 0.1em;
 	color: #9D5DE0;
 }
 
@@ -4672,7 +4672,7 @@ font-size: 14px;
 .i-mail:before, .i-phone:before, .i-pinterest:before, .i-play:before,
 .i-right:before, .i-twitter:before, .i-up:before, .i-youtube:before {
     display: inline-block;
-    font-family: "dapulse";
+    font-family: "piropay";
     font-style: normal;
     font-weight: normal;
     font-variant: normal;

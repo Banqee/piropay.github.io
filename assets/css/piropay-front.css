@@ -4477,9 +4477,9 @@ font-size: 14px;
 }
 
 .pricing--pema .pricing__feature-list {
-	font-size: 0.95em;
-	margin: 0;
-	padding: 1.5em 0.5em 2.5em;
+	    font-size: 0.95em;
+    margin: 0;
+    padding: 0.1em 0.2em 3.5em;
 	list-style: none;
 }
 

@@ -12,9 +12,9 @@
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css  */
 
 @media (min-width: 992px)
-{.desktop-section-height{height:37vw !important}}
+{.desktop-section-height{height:45vw !important}}
 @media (max-width: 991px)
-{.mobile-section-height{height:62vw !important}}
+{.mobile-section-height{height:46vw !important}}
 
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}

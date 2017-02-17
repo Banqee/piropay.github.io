@@ -4035,7 +4035,12 @@ font-size: 14px;
 	margin-top: auto;
 }
 
-.block-center .pricing-plan__note {
+.pricing__action {
+	margin-top: 25px;
+}
+
+
+.pricing-plan__note {
 	margin-top: 25px;
 }
 

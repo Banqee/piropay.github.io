@@ -3076,6 +3076,11 @@ margin-top: 5px;
 }
 
 
+.group-copy-image img {
+    width: 75%;
+    margin: 1.6% 0 0 15%;
+}
+
 .left .text {
     margin: 0 13% 0 8%;
 }

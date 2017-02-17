@@ -4032,21 +4032,12 @@ font-size: 14px;
 }
 
 .pricing--pema .pricing__action {
-	font-weight: bold;
 	margin-top: auto;
-	padding: 1em 2em;
-	color: #fff;
-	border-radius: 5px;
-	background: #9D5DE0;
-	-webkit-transition: background-color 0.3s;
-	transition: background-color 0.3s;
 }
 
-.pricing--pema .pricing__action:hover,
-.pricing--pema .pricing__action:focus {
-	background-color: #4F5F56;
+.block-center .pricing-plan__note {
+	margin-top: 25px;
 }
-
 
 .signup-form-half-pg-1 a:hover {
     color: #fdfdfd;

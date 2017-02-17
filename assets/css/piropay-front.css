@@ -3984,10 +3984,13 @@ font-size: 14px;
 }
 
 .pricing--pema .icon {
-	display: inline-block;
-	min-width: 2em;
-	color: #9D5DE0;
-	vertical-align: middle;
+    display: inline-block;
+    min-width: 2em;
+    min-height: 1em;
+    color: #9D5DE0;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 32px;
 }
 
 .pricing--pema .pricing__price {
@@ -4020,7 +4023,7 @@ font-size: 14px;
 .pricing--pema .pricing__feature-list {
 	    font-size: 0.95em;
     margin: 0;
-    padding: 0.1em 0.2em 3.5em;
+    padding: 0.1em 0.2em 1.25em;
 	list-style: none;
 }
 

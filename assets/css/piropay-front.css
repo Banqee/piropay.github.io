@@ -4048,6 +4048,42 @@ font-size: 14px;
 }
 
 
+.signup-form-half-pg-1 a:hover {
+    color: #fdfdfd;
+    opacity: 5;
+    text-decoration: none;
+    background-color: #a25ddc;
+    border: 0px solid #a25ddc;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.signup-form-half-pg-1 a:hover {
+    color: #fdfdfd;
+    opacity: 7;
+    text-decoration: none;
+    background-color: #a25ddc;
+    border: 1px solid #a25ddc;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.signup-form-half-pg-1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+} 
+
+.signup-form-half-pg-1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.1s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+}
+
 .row-md-height-fp {
     display: table;
     table-layout: fixed;

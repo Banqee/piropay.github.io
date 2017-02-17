@@ -2015,7 +2015,7 @@ fieldset[disabled] .btn-success.active {
 .iso-features {
     background-color: #fff;
     padding-top: 5vw;
-	    padding-bottom: 1.25vw;
+	    padding-bottom: 0.25vw;
 }
 
 .iso-features .heading{padding:1.4vw 1.8vw;text-align:center}
@@ -3720,7 +3720,7 @@ font-size: 14px;
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
-    margin: 0 auto 3em;
+    margin: 0 auto 1.75em;
 }
 
 

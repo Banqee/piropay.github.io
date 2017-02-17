@@ -169,7 +169,7 @@ video.fade{opacity:1}
 
 .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 16.5px;
     line-height: 1.33;
     border-radius: 50px;
 }
@@ -1671,7 +1671,7 @@ footer .footer-below {
   border: solid 2px white;
 }
 .btn-primary {
-  color: white;
+  color: white!important;
   background-color: #9d5de0;
   border-color: #9d5de0;
   font-weight: 700;

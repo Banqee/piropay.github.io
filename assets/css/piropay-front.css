@@ -3621,7 +3621,7 @@ margin-bottom: 10px;
 }
 
 .contact-block .media-body-first {
-    padding: 10px 0px 10px 15px;
+    padding: 10px 0px 10px 2px;
 }
 
 .contact-block h4 {
@@ -3632,7 +3632,7 @@ margin-bottom: 10px;
 
 .contact-block p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
 }
 .contact-block:last-child {
     margin-bottom: 0;
